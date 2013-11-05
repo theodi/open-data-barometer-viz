@@ -12,8 +12,8 @@ var Datasets = {
 		labels.push(temp[1]);
 	}	
 
-	var w = 800;
-	var h = 200;
+	var w = 710;
+	var h = 120;
 	d3.select(id).select("svg").remove();
 	
 	var elem = d3.select(id)
@@ -30,7 +30,7 @@ var Datasets = {
 		.attr("cx", function(d, i) {
           	      return (i * 50) + 30;
 	        })
-		.attr("cy", h/2)
+		.attr("cy", h - 30)
 		.attr("fill", "#1f77bf")
 		.attr("stroke", "black")
 		.attr("stroke-width", function(d, i) {
@@ -52,43 +52,8 @@ var Datasets = {
 	   .attr("fill", "#fff")
 	   .attr("transform", function(d,i) {
 		x = i * 50 + 40;
-		y = h/2 - 30;
+		y = h - 60;
 		return "translate(" + x + "," + y + ")rotate(-65)";
 	   });
-
-/*	
-	var circles = svg.selectAll("circle")
-                 .data(dataset)
-                 .enter()
-                 .append("circle");
-
-	circles.attr("cx", function(d, i) {
-		return (i * 50) + 25;
-	})
-	.attr("cy", h/2)
-	.attr("fill", "#1f77bf")
-	.attr("stroke", "black")
-	.attr("stroke-width", function(d, i) {
-		if (outline[i]>0) {
-			return 2
-		} else {
-			return 0
-		}
-	})
-	.attr("r", function(d) {
-		return d/4;
-	});
-	circles.append("svg:text")
-           .attr("x", function(d){return -20})
-           .attr("y", function(d){return 20})
-           .attr("class", "legend")
-           .style("font-family", "sans-serif")
-           .style("font-size", "10px")
-           .attr("fill", "#fff")
-           .text(function(d){ return "label"});
-*/
-	
-	
-
      }
 };

@@ -69,36 +69,8 @@ h2 {
   padding-bottom: 0.5em;
 }
 
-dt {
-  float:left;
-  clear: left;
-}
-
-dt:after {
-  content: ": ";
-  margin-right: 0.5em;
-}
-
-dd {
-  float: left;
-}
-
-
 #container {
   position: relative;
-}
-
-#switches {
-  position: absolute;
-  top: 0;
-  left: 320px;
-  padding-top: 10px;
-  height: 30px;
-}
-
-#switches li {
-  float: left;
-  margin-right: 2em;
 }
 
 #score {
@@ -114,64 +86,19 @@ dd {
   height: 460px;
 }
 
-#borough {
-  border-top: 1px solid #606060;
-  padding-top: 0.5em;
-}
-
-#borough h2 {
-  font-size: 1.8em;
-  line-height: 1.2em;
-  margin-bottom: 0;
-}
-
-#histogram {
-  height: 150px;
-  overflow: hidden;
-  margin-top: 1em;
-  margin-bottom: 0;
-}
-
 #score {
   margin-bottom: 1em;
 }
 
-#score h2 {
-  font-size: 1.8em;
-  margin-bottom: 0;
-}
-#score h3 {
-  font-size: 0.8em;
-  margin-bottom: 2em;
-  font-weight: normal;
-}
-#borough dt {
-  font-size: 0.8em;
-  margin-bottom: 2em;
-  font-weight: normal;
-}
-#borough dd {
-  float: right;
-  position: relative;
-  bottom: 10px;
-  right: 10px;
-}
-#borough .number {
-  font-size: 2.5em;
-}
 #logo {
 	position: absolute;
 	top: 490px;
 	width: inherit;
 	text-align: center;
 }
-text {
-	color: white;
-}
 .logoimg {
 	width: 200px;
 }
-
 #map {
   position: absolute;
   top: 40px;
@@ -181,9 +108,9 @@ text {
 #datasets {
   position: relative;
   top: 420px;
-  left: 480px;
+  left: 420px;
+  width: 710px;
 }
-
 #legend {
   padding: 6px 8px;
   background: rgba(64,64,64,0.8);
@@ -268,16 +195,6 @@ text {
  a.close {
   font-size: 0.8em;
  }
-
-  .leaflet-container .leaflet-control-zoom-in, .leaflet-container .leaflet-control-zoom-out {
-  background-color: #404040 !important;
-  color: #eee;
-}
-
-.leaflet-container .leaflet-control-zoom-in:hover, .leaflet-container .leaflet-control-zoom-out:hover {
-  background-color: #606060 !important;
-  color: #eee;
-}
 
 .clear {
   clear: left;
