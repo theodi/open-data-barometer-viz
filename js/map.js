@@ -30,6 +30,7 @@ queue()
     .defer(d3.tsv, "data/world-country-names.tsv")
     .defer(d3.json, "data/cities.json")
     .defer(d3.csv, "data/ODB-2013-Rankings.csv")
+    .defer(d3.csv, "data/ODB-2013-Datasets-Scored.csv")
     .await(ready);
 
 function getColor(d,i){
@@ -50,9 +51,7 @@ function getColor(d,i){
 	}
 }
 
-function ready(error, world, names, points, odbdata) {
-  console.log(names);
-  console.log(odbdata);
+function ready(error, world, names, points, odbdata, datasetScores) {
   var countries = topojson.object(world, world.objects.countries).geometries,
       neighbors = topojson.neighbors(world, countries),
       i = -1,
@@ -61,17 +60,22 @@ function ready(error, world, names, points, odbdata) {
   countries.forEach(function(d) { 
     var tryit = names.filter(function(n) { return d.id == n.id; })[0];
     if (typeof tryit === "undefined"){
-      d.name = "Undefined";
-      console.log(d);
+      console.log("Failed in match 1: " + d);
     } else {
       d.name = tryit.name; 
     }
     var tryit2 = odbdata.filter(function(n) { return d.name == n.Country; })[0];
     if (typeof tryit2 === "undefined"){
-//	console.log("Failed to find " + d.name);
+//	console.log("Failed in match 2: " + d.name);
     } else {
     	d.odbdata = tryit2;
     }
+    var tryit3 = datasetScores.filter(function(n) { return d.name == n.Country; });
+    if (typeof tryit3 === "undefined"){
+//	console.log("Failed in match 3: " + d.name);
+    } else {
+	d.datasets = tryit3;
+    } 
   });
 
 var country = svg.selectAll(".country").data(countries);
@@ -99,9 +103,12 @@ var country = svg.selectAll(".country").data(countries);
 	document.getElementById("country").innerHTML = d.name;
 	document.getElementById("score").innerHTML = "X";
 	document.getElementById("radar").innerHTML = "";
+	document.getElementById("datasets").innerHTML = "";
+	if (d.datasets) {
+		Datasets.draw("#datasets",d.datasets);
+	}
 	if (d.odbdata) {
 		document.getElementById("score").innerHTML = d.odbdata["ODB-Rank"];
-		console.log(d.odbdata);
 		var top = [];
 		var data = [];
 		var obj = {};
@@ -141,7 +148,6 @@ var country = svg.selectAll(".country").data(countries);
 		obj.value = d.odbdata["Readiness_Citizens-Scaled"] / 100;
 		data.push(obj);
 		top.push(data);
-		console.log(top);
 		RadarChart.draw("#radar", top);	
 	}
       })

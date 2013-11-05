@@ -178,6 +178,11 @@ text {
   right: 0px;
   bottom: 0px;
 }
+#datasets {
+  position: relative;
+  top: 420px;
+  left: 480px;
+}
 
 #legend {
   padding: 6px 8px;
