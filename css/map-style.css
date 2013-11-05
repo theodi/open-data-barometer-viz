@@ -92,12 +92,24 @@ h2 {
 
 #logo {
 	position: absolute;
-	top: 490px;
+	top: 485px;
 	width: inherit;
 	text-align: center;
+	left: 20px;
+}
+#credit {
+	font-size: 10px;
+	color: white;
+	position: absolute;
+	top: 520px;
+	left: 20px;
+}
+#credit a {
+	color: white;
+	text-decoration: underline;
 }
 .logoimg {
-	width: 200px;
+	width: 150px;
 }
 #map {
   position: absolute;
