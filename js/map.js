@@ -97,6 +97,8 @@ var country = svg.selectAll(".country").data(countries);
       })
       .on("click", function(d,i) {
 	document.getElementById("country").innerHTML = d.name;
+	document.getElementById("score").innerHTML = "X";
+	document.getElementById("radar").innerHTML = "";
 	if (d.odbdata) {
 		document.getElementById("score").innerHTML = d.odbdata["ODB-Rank"];
 		console.log(d.odbdata);
