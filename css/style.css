@@ -1,0 +1,55 @@
+h1 a {
+	color: white;
+}
+
+h1 a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+h6 {
+	font-size: 100%;
+}
+
+#visualisation {
+	width: 960px;
+}
+
+iframe {
+	border: none;
+	overflow: hidden;
+	margin: 0 auto;
+	display: block;
+}
+#tabs {
+	margin-top: 30px;
+}
+
+#tabs li {
+	margin-bottom: -1px;
+}
+
+td.align-right, th.align-right  {
+	text-align: right;
+}
+
+td.align-center, th.align-center  {
+	text-align: center;
+}
+
+.table td {
+	padding: 2px;
+}
+
+#overall-stats {
+	width: 66%; 
+	font-size: 100%;
+}
+
+#overall-stats td {
+	padding:8px;
+}
+
+li {
+  line-height: 24px;
+}
