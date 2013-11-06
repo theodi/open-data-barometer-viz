@@ -68,7 +68,30 @@ h2 {
   font-size: 2em;
   padding-bottom: 0.5em;
 }
-
+#help {
+	position: absolute;
+	top: 4px;
+	right: 10px;
+}
+#helpBox {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 98%;
+	height: 520px;
+	background-color: #ccc;
+	border-radius: 10px;
+	border: 1px solid #ddd;
+	margin: 1em;
+	display: none;
+	overflow-x: none;
+	overflow-y: auto;
+}
+#closeHelp {
+	position: absolute;
+	right: 20px;
+	top: 8px;
+}
 #container {
   position: relative;
 }

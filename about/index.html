@@ -49,3 +49,14 @@ Key to the success of open data usage is the availability of a number of "core" 
 	<img src="../img/web_foundation.gif" alt="World Wide Web Foundation" style="height: 75px;">
 </div>
 </div>
+
+<script>
+window.onload = function () {
+	var params = window.location.search.replace( "?", "" );
+        if (params == "hf=no") {
+		document.getElementsByTagName('nav')[0].style.display="none";
+		document.getElementsByTagName('h1')[1].innerHTML = "Help";
+		document.getElementsByTagName('footer')[0].style.display="none";
+	}
+}
+</script>

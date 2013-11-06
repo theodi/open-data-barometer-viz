@@ -5,14 +5,13 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/map-style.css" />
-  <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/freeuniversal" rel="stylesheet" type="text/css"/>
-	<link rel="stylesheet" href="js/lib/leaflet-0.6.4.css" />
-	<!--[if lte IE 8]>
-    	<link rel="stylesheet" href="js/lib/leaflet.ie-0.6.4.css" />
-	<![endif]-->
+  	<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/freeuniversal" rel="stylesheet" type="text/css"/>
 </head>
 <body>
   <div id="container">
+  <div id="help" onclick="showHelp()">
+	<img src="img/help.png" width="30px" alt="Help"/>
+  </div>
     <div id="sidebar">
       <div id="detail">
         <h2 id="country">Select a country</h2>
@@ -32,11 +31,19 @@
   <div id="credit">
 	Visualisation by <a href="http://theodi.org/team/dr-david-tarrant">Dr David Tarrant</a> | Open Data Barometer <a target="_blank" href="http://www.opendatabarometer.org">report</a> and <a target="_blank" href="http://www.opendataresearch.org/content/2013/535/get-data-open-data-barometer-2013">open data</a>.
   </div>
+  <div id="helpBox">
+	<div id="closeHelp" onClick="hideHelp()">
+		<img src="img/close_icon.png" width="30px"/>
+	</div>
+	<iframe id="frame1" src="about/index.html?hf=no" frameborder="0" scrolling="yes" width="100%" height="500px"></iframe>
+  </div>
+  <script src="js/jquery-1.10.2.min.js"></script>
   <script src="js/d3.v3.min.js"></script>
   <script src="js/queue.v1.min.js"></script>
   <script src="js/topojson.js"></script>
   <script src="js/radarChart.js"></script>
   <script src="js/datasets.js"></script>
   <script src="js/map.js"></script>
+  <script src="js/help.js"></script>
 </body>
 </html>
