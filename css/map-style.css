@@ -109,6 +109,11 @@ h2 {
   height: 460px;
 }
 
+#income {
+	font-size: 0.5em;
+	position: relative;
+	bottom: 1em;
+}
 #score {
   margin-bottom: 1em;
 }

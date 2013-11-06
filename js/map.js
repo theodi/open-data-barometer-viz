@@ -31,6 +31,7 @@ queue()
     .defer(d3.json, "data/cities.json")
     .defer(d3.csv, "data/ODB-2013-Rankings.csv")
     .defer(d3.csv, "data/ODB-2013-Datasets-Scored.csv")
+    .defer(d3.csv, "data/countries_income.csv")
     .await(ready);
 
 function getColor(d,i){
@@ -51,7 +52,7 @@ function getColor(d,i){
 	}
 }
 
-function ready(error, world, names, points, odbdata, datasetScores) {
+function ready(error, world, names, points, odbdata, datasetScores, income) {
   var countries = topojson.object(world, world.objects.countries).geometries,
       neighbors = topojson.neighbors(world, countries),
       i = -1,
@@ -75,6 +76,12 @@ function ready(error, world, names, points, odbdata, datasetScores) {
 //	console.log("Failed in match 3: " + d.name);
     } else {
 	d.datasets = tryit3;
+    } 
+    var tryit4 = income.filter(function(n) { return d.name == n.Country; })[0];
+    if (typeof tryit4 === "undefined"){
+//	console.log("Failed in match 3: " + d.name);
+    } else {
+	d.income = tryit4.Tier;
     } 
   });
 
@@ -101,6 +108,24 @@ var country = svg.selectAll(".country").data(countries);
       })
       .on("click", function(d,i) {
 	document.getElementById("country").innerHTML = d.name;
+	var incomeSpan = document.createElement("sup");
+	incomeSpan.setAttribute("id","income");
+	if (d.income == "Low Income") {
+		incomeSpan.innerHTML = "$";
+		incomeSpan.setAttribute("title","Low Income");
+	} else if (d.income == "Lower Middle Income") {
+		incomeSpan.innerHTML = "$$";
+		incomeSpan.setAttribute("title","Lower Middle Income");
+	} else if (d.income == "Upper Middle Income") {
+		incomeSpan.innerHTML = "$$$";
+		incomeSpan.setAttribute("title","Upper Middle Income");
+	} else if (d.income == "High Income") {
+		incomeSpan.innerHTML = "$$$$";
+		incomeSpan.setAttribute("title","High Income");
+	} else {
+		incomeSpan.innerHTML = "";
+	}
+	document.getElementById("country").appendChild(incomeSpan);
 	document.getElementById("score").innerHTML = "X";
 	document.getElementById("radar").innerHTML = "";
 	document.getElementById("datasets").innerHTML = "";
