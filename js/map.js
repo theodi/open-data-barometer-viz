@@ -1,5 +1,5 @@
 // The SVG container
-var width  = 800,
+var width  = 850,
     height = 400;
 
 var color = d3.scale.category10();

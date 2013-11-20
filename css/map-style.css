@@ -72,6 +72,12 @@ h2 {
 	position: absolute;
 	top: 4px;
 	right: 10px;
+	cursor: pointer;
+}
+#code {
+	position: absolute;
+	top: 4px;
+	right: 48px;
 }
 #helpBox {
 	position: absolute;
@@ -144,6 +150,10 @@ h2 {
   top: 40px;
   right: 0px;
   bottom: 0px;
+}
+#radar {
+  position: relative;
+  left: -20px;
 }
 #datasets {
   position: relative;
