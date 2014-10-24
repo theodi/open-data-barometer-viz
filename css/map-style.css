@@ -79,6 +79,34 @@ h2 {
 	top: 4px;
 	right: 48px;
 }
+#year {
+	border: 2px solid #eee;
+	background-color: #404040;
+	color: #eee;
+	font-size: 1.5em;
+	border-radius: 8px;
+	position: absolute;
+	right: 90px;
+	top: 2px;
+}
+#arrow {
+	font-size: 2em;
+	position: relative;
+	right: 20px;
+	bottom: 20px;
+}
+#movement {
+	position: relative;
+	right: 25px;
+	bottom: 20px;
+	font-size: 1.4em;
+}
+#warning {
+	position: absolute;
+	font-size: 1.3em;
+	left: 10px;
+	top: 5px;
+}
 #helpBox {
 	position: absolute;
 	top: 0px;

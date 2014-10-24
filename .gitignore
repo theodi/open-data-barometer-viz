@@ -1,2 +1,6 @@
 _site
 build
+data/ODB-2014-Datasets-Scored-FAKE.csv
+data/ODB-2014-Rankings-FAKE.csv
+data/ODB-2014-Datasets-Scored.csv
+data/ODB-2014-Rankings.csv

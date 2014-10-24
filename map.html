@@ -6,20 +6,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/map-style.css" />
   	<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/freeuniversal" rel="stylesheet" type="text/css"/>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-34573394-8', 'theodi.github.io');
-  ga('send', 'pageview');
-
-</script>
-
 </head>
 <body>
   <div id="container">
+  <div id="warning">
+	WARNING: THE 2014 DATA IS FAKE!!!
+  </div>
+  <select id="year" title="Select year" onclick="changeYear()">
+	<option id="2013">2013</option>
+	<option id="2014">2014</option>
+  </select>
   <div id="code" title="Get the code">
   	<a href="https://github.com/theodi/open-data-barometer-viz/tree/gh-pages" target="_blank"><img src="img/github-128.png" width="32px" alt="Get the code"></a>
   </div>
@@ -32,6 +28,8 @@
 		Select a country
 	</h2>
         <span id="score">_</span><span id="outof">/77</span>
+	<span id="arrow"></span>
+        <span id="movement"></span>
       </div>
       <div id="radar">
       </div>
