@@ -31,6 +31,7 @@ var Datasets = {
           	      return (i * 50) + 30;
 	        })
 		.attr("cy", h - 30)
+		.transition(10000)
 		.attr("fill", "#1f77bf")
 		.attr("stroke", "black")
 		.attr("stroke-width", function(d, i) {

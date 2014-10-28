@@ -3,8 +3,10 @@ var width  = 850,
     height = 400;
 
 var year = 2013;
+var prevyear;
 var current;
 var countries;
+var centered; 
 
 var color = d3.scale.category10();
 
@@ -22,8 +24,23 @@ var svg = d3.select("#map").append("svg")
     .on("zoom", redraw))
     .append("g");
 
+var g = svg.selectAll("g");
+
 function redraw() {
     svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+}
+
+function updateScore(oldScore,newScore) {
+	oldScore = parseInt(oldScore);
+	if (oldScore < newScore) {
+		oldScore = oldScore + 1;
+	} else if (oldScore > newScore) {
+		oldScore = oldScore - 1;
+	}
+	document.getElementById("score").innerHTML = oldScore;
+	if (oldScore != newScore) {
+		setTimeout(function() { updateScore(oldScore,newScore)}, 50);
+	}
 }
 
 var tooltip = d3.select("#map").append("div")
@@ -122,20 +139,75 @@ function ready(error, world, names, points, odbdata2013, datasetScores2013, odbd
       .on("mousemove", function(d,i) {
       })
       .on("click", function(d,i) {
-	current = d;
 	drawStats(d);
+	current = d;
+	zoomTo(d);
       })
       .on("mouseout",  function(d,i) {
         tooltip.classed("hidden", true)
       });
 };
 
-function drawStats(d) {
+function zoomCountry(countryName) {
+  
+  countries.forEach(function(d) {
+	if (d.name == countryName) {
+		drawStats(d);
+		current = d;
+		zoomTo(d);
+	}
+  });
+	
+}
 
+function zoomTo(d) {
+	
+	var x, y, k;
+
+	if (d && centered !== d) {
+		var centroid = path.centroid(d);
+		x = centroid[0];
+		y = centroid[1];
+		if (path.area(d) > 2000) {
+			k = 2;
+		} else if (path.area(d) > 1000) {
+			k = 4;
+		} else if (path.area(d) > 750) {
+			k = 8;
+		} else if (path.area(d) > 500) {
+			k = 8;
+		} else if (path.area(d) > 250) {
+			k = 10;
+		} else if (path.area(d) < 250) {
+			k = 12;
+		}
+		centered = d;
+	} else {
+		x = width / 2;
+		y = height / 2;
+		k = 1;
+		centered = null;
+	}
+
+	svg.selectAll("path")
+		.classed("active", centered && function(d) { return d === centered; });
+
+	svg.transition()
+		.duration(750)
+		.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
+		.style("stroke-width", 1.5 / k + "px");
+}
+
+function drawStats(d) {
   var country = svg.selectAll(".country").data(countries);
   country
    .style("fill", function(d, i) { return getColor(d); });
-
+	var oldScore;
+	if (current) {
+		if (current.name == d.name) {
+			oldScore = document.getElementById("score").innerHTML;
+		}
+	}
 	document.getElementById("country").innerHTML = d.name;
 	
 	var incomeSpan = document.createElement("sup");
@@ -161,13 +233,20 @@ function drawStats(d) {
 	document.getElementById("datasets").innerHTML = "";
 	document.getElementById("arrow").innerHTML = "";
 	document.getElementById("movement").innerHTML = "";
+	$("#movement").hide();
+	$("#arrow").hide();
 	
 
 	if (d.datasets[year]) {
 		Datasets.draw("#datasets",d.datasets[year]);
 	}
 	if (d.odbdata[year]) {
-		document.getElementById("score").innerHTML = d.odbdata[year]["ODB-Rank"];
+		newScore = d.odbdata[year]["ODB-Rank"];
+		if (oldScore > 0 && prevyear < year) {
+			updateScore(oldScore,newScore);
+		} else {
+			document.getElementById("score").innerHTML = d.odbdata[year]["ODB-Rank"];
+		}
 		if (d.odbdata[year-1]) {
 			movement = d.odbdata[year-1]["ODB-Rank"] - d.odbdata[year]["ODB-Rank"];
 			if (movement > 0) {
@@ -184,7 +263,8 @@ function drawStats(d) {
 				document.getElementById("arrow").style.color = "red";
 				document.getElementById("movement").style.color = "red";
 			}
-			console.log(d.odbdata[year-1]["ODB-Rank"]);
+			$("#movement").animate({left: 20, opacity: "show"},2000);
+			$("#arrow").animate({left: 20, opacity: "show"},2000);
 		}
 		var top = [];
 		var data = [];
@@ -229,7 +309,46 @@ function drawStats(d) {
 	}
 }
 
-function changeYear() {
-	year = document.getElementById("year").value;
-	drawStats(current);
+function switchYear(year) {
+	document.getElementById("year").value = year;
+	changeYear();
 }
+
+function changeYear() {
+	prevyear = year;
+	year = document.getElementById("year").value;
+	if (current) {
+		drawStats(current);
+	}
+}
+
+function storyByCountryName(countryName,year) {
+	switchYear(year);
+	if (current) {
+		if (current.name == countryName) {
+			drawStats(current);
+		} else {
+			zoomCountry(countryName);
+		}
+	} else {
+		zoomCountry(countryName);
+	}
+}
+
+function resetMap(year) {
+	switchYear(year);
+	zoomTo(current);
+}
+
+function tellStory() {
+	storyByCountryName("United Kingdom",2013);
+	setTimeout(function() {storyByCountryName("United Kingdom",2014);},7000);
+	setTimeout(function() {resetMap(2013);},17000);
+	setTimeout(function() {storyByCountryName("Burkina Faso",2013);},18000);
+	setTimeout(function() {storyByCountryName("Burkina Faso",2014);},25000);
+	setTimeout(function() {resetMap(2013);},35000);
+	setTimeout(function() {storyByCountryName("United Kingdom",2013);},36000);
+	setTimeout(function() {storyByCountryName("United Kingdom",2014);},43000);
+	setTimeout(function() {resetMap(2014);},53000);
+}
+
