@@ -446,15 +446,15 @@ function setStoryBoxText(text,part) {
 
 function progressBarSimple() {
 	var dom = document.getElementById("player-up-down");
-	dom.innerHTML = '<div id="progressBar" style="background: rgb(32,32,32); height: 20px; margin-top: 2px; width: 1px;"></div>';
-	timeout = setInterval(function() {updateProgress();},80);
-	setTimeout(function() {clearTimeout(timeout);},13800);
+	dom.innerHTML = '<div id="mprogressBar" style="background: rgb(32,32,32); height: 20px; margin-top: 2px; width: 1px;"></div>';
+	timeout = setInterval(function() {mUpdateProgress();},88);
+	setTimeout(function() {clearTimeout(timeout);},14900);
 }
 
-function updateProgress() {
-	width = $("#progressBar").width();
-	width = width + 1;
-	$("#progressBar").width(width);
+function mUpdateProgress() {
+	mupwidth = $("#mprogressBar").width();
+	mupwidth = mupwidth + 1;
+	$("#mprogressBar").width(mupwidth);
 }
 
 function tellStory(country,year) {
@@ -467,8 +467,8 @@ function tellStory(country,year) {
 	}
 	positionBox(story.box);
 	hideStoryBar();
+	progressBarSimple();
 	setTimeout(function() {storyByCountryName(local_story.country,year-1);},1000);
-	setTimeout(function() {progressBarSimple();},1100);
 	setTimeout(function() {$("#story_block").hide( function() { 
 				   $("#story_block").fadeIn('slow');
 			         });
