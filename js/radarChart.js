@@ -10,6 +10,7 @@
 
 var RadarChart = {
   draw: function(id, d, options){
+  var colors = ["#1f77b4","#9467bd","#2ca02c"];
   var cfg = {
 	 radius: 5,
 	 w: 280,
@@ -25,7 +26,9 @@ var RadarChart = {
 	 TranslateY: 30,
 	 ExtraWidthX: 230,
 	 ExtraWidthY: 100,
-	 color: d3.scale.category10()
+	 color: function (i) {
+		return colors[i];
+	 }
 	};
 	
 	if('undefined' !== typeof options){
@@ -128,6 +131,7 @@ var RadarChart = {
 		  ]);
 		});
 	  dataValues.push(dataValues[0]);
+          console.log(cfg.color(series));
 	  g.selectAll(".area")
 					 .data([dataValues])
 					 .enter()

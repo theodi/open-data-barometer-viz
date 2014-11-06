@@ -26,13 +26,18 @@ var Datasets = {
 	    .enter()
 	    .append("g");
 
+	var fillColor = "#1f77bf";
+	if (year == 2014) {
+		fillColor = "#9467bd";
+	}
+
 	var circles = groups.append("circle") 
 		.attr("cx", function(d, i) {
           	      return (i * 50) + 30;
 	        })
 		.attr("cy", h - 30)
 		.transition(10000)
-		.attr("fill", "#1f77bf")
+		.attr("fill", fillColor)
 		.attr("stroke", "black")
 		.attr("stroke-width", function(d, i) {
 			if (outline[i]>0) {

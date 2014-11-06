@@ -64,6 +64,15 @@ function getColor(d,i){
 	overlaySatMax = 1,
 	overlayValMin = 0.95,
 	overlayValMax = 0.8;
+	if (year == 2014) {	
+		var overlayHueMin = 269,
+		overlayHueMax = 271,
+		overlaySatMin = 0.39,
+		overlaySatMax = 0.39,
+		overlayValMin = 0.82,
+		overlayValMax = 0.57;
+	}
+	
 	if (d.odbdata[year] === undefined) {
 		return d3.rgb(255,255,255);
 	} else {
@@ -267,44 +276,49 @@ function drawStats(d) {
 			$("#arrow").animate({left: 20, opacity: "show"},2000);
 		}
 		var top = [];
-		var data = [];
-		var obj = {};
-		obj.axis = "Readiness: Government";
-		obj.value = d.odbdata[year]["Readiness_Government-Scaled"] / 100;
-		data.push(obj);
-		var obj = {};
-		obj.axis = "Impacts: Economic";
-		obj.value = d.odbdata[year]["Impacts_Economic-Scaled"] / 100;
-		data.push(obj);
-		var obj = {};
-		obj.axis = "Impacts: Social";
-		obj.value = d.odbdata[year]["Impact_Social-Scaled"] / 100;
-		data.push(obj);
-		var obj = {};
-		obj.axis = "Impacts: Political";
-		obj.value = d.odbdata[year]["Impact_Political-Scaled"] / 100;
-		data.push(obj);
-		var obj = {};
-		obj.axis = "Datasets: Innovation";
-		obj.value = d.odbdata[year]["Datasets_Innovation"] / 100;
-		data.push(obj);
-		var obj = {};
-		obj.axis = "Datasets: Social Policy";
-		obj.value = d.odbdata[year]["Datasets_Social_Policy"] / 100;
-		data.push(obj);
-		var obj = {};
-		obj.axis = "Datasets: Accountability";
-		obj.value = d.odbdata[year]["Datasets_Accountability"] / 100;
-		data.push(obj);
-		var obj = {};
-		obj.axis = "Readiness: Enterpreneurs & Business";
-		obj.value = d.odbdata[year]["Readiness_Entrepreneurs-Scaled"] / 100;
-		data.push(obj);
-		var obj = {};
-		obj.axis = "Readiness: Citizens & Civil Society";
-		obj.value = d.odbdata[year]["Readiness_Citizens-Scaled"] / 100;
-		data.push(obj);
-		top.push(data);
+		for (i=(year-1);i<=year;i++) {
+			if (d.odbdata[i]) {
+			var data = [];
+			var obj = {};
+			obj.axis = "Readiness: Government";
+			obj.value = d.odbdata[i]["Readiness_Government-Scaled"] / 100;
+			data.push(obj);
+			var obj = {};
+			obj.axis = "Impacts: Economic";
+			obj.value = d.odbdata[i]["Impacts_Economic-Scaled"] / 100;
+			data.push(obj);
+			var obj = {};
+			obj.axis = "Impacts: Social";
+			obj.value = d.odbdata[i]["Impact_Social-Scaled"] / 100;
+			data.push(obj);
+			var obj = {};
+			obj.axis = "Impacts: Political";
+			obj.value = d.odbdata[i]["Impact_Political-Scaled"] / 100;
+			data.push(obj);
+			var obj = {};
+			obj.axis = "Datasets: Innovation";
+			obj.value = d.odbdata[i]["Datasets_Innovation"] / 100;
+			data.push(obj);
+			var obj = {};
+			obj.axis = "Datasets: Social Policy";
+			obj.value = d.odbdata[i]["Datasets_Social_Policy"] / 100;
+			data.push(obj);
+			var obj = {};
+			obj.axis = "Datasets: Accountability";
+			obj.value = d.odbdata[i]["Datasets_Accountability"] / 100;
+			data.push(obj);
+			var obj = {};
+			obj.axis = "Readiness: Enterpreneurs & Business";
+			obj.value = d.odbdata[i]["Readiness_Entrepreneurs-Scaled"] / 100;
+			data.push(obj);
+			var obj = {};
+			obj.axis = "Readiness: Citizens & Civil Society";
+			obj.value = d.odbdata[i]["Readiness_Citizens-Scaled"] / 100;
+			data.push(obj);
+			top.push(data);
+			}
+		}
+		console.log(top);
 		RadarChart.draw("#radar", top);	
 	}
 }
@@ -319,6 +333,8 @@ function changeYear() {
 	year = document.getElementById("year").value;
 	if (current) {
 		drawStats(current);
+	} else {
+		drawStats();
 	}
 }
 
