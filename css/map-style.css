@@ -291,3 +291,60 @@ h2 {
   stroke-width: .1px;
   stroke-linejoin: round;
 }
+#player {
+	width: 100%;
+	position: absolute;
+	top: 535px;
+}
+#player-up-down {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 170px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        text-align: center;
+        border-top: 1px solid gray;
+        border-right: 1px solid gray;
+        border-left: 1px solid gray;
+        border-radius: 5px;
+}
+#player-div {
+	width: 90%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	bottom: 2px;
+	position: relative;
+	height: 100px;
+	background-color: rgba(32,32,32,0.8);
+	text-align: center;
+}
+#storyElement {
+	width: 180px;
+	text-align: center;
+	border: 1px solid white;
+	height: 100px;
+	margin-left: 5px;
+	margin-right: 5px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: rgb(32,32,32);
+}
+#story_block {
+	display: none;
+	border: 1px solid white;
+	border-radius: 5px;
+	background-color: rgba(32,32,32,0.9);
+	color: white;
+	font-size: 1.4em;
+	padding: 10px;
+	position: absolute;
+	top: 40px;
+	left: 360px;
+	width: 450px;
+	height: 250px;
+	z-index: 30;
+}

@@ -6,7 +6,9 @@ var year = 2013;
 var prevyear;
 var current;
 var countries;
-var centered; 
+var centered;
+var stories; 
+var storyPanelHidden = true;
 
 var color = d3.scale.category10();
 
@@ -23,6 +25,11 @@ var svg = d3.select("#map").append("svg")
     .call(d3.behavior.zoom()
     .on("zoom", redraw))
     .append("g");
+
+$.ajaxSetup ({
+    // Disable caching of AJAX responses
+    cache: false
+});
 
 var g = svg.selectAll("g");
 
@@ -165,8 +172,16 @@ function zoomCountry(countryName) {
 		current = d;
 		zoomTo(d);
 	}
-  });
-	
+  });	
+}
+
+function selectCountry(countryName) {
+  countries.forEach(function(d) {
+	if (d.name == countryName) {
+		drawStats(d);
+		current = d;
+	}
+  });	
 }
 
 function zoomTo(d) {
@@ -318,7 +333,6 @@ function drawStats(d) {
 			top.push(data);
 			}
 		}
-		console.log(top);
 		RadarChart.draw("#radar", top);	
 	}
 }
@@ -331,6 +345,7 @@ function switchYear(year) {
 function changeYear() {
 	prevyear = year;
 	year = document.getElementById("year").value;
+	populateStoryBar(year);
 	if (current) {
 		drawStats(current);
 	} else {
@@ -339,16 +354,18 @@ function changeYear() {
 }
 
 function storyByCountryName(countryName,year) {
-	switchYear(year);
+	var zoom = true;
 	if (current) {
 		if (current.name == countryName) {
-			drawStats(current);
-		} else {
-			zoomCountry(countryName);
+			zoom=false;
 		}
-	} else {
-		zoomCountry(countryName);
 	}
+	if (zoom) {
+		zoomCountry(countryName);
+	} else {
+		selectCountry(countryName);
+	}
+	switchYear(year);
 }
 
 function resetMap(year) {
@@ -356,15 +373,110 @@ function resetMap(year) {
 	zoomTo(current);
 }
 
-function tellStory() {
-	storyByCountryName("United Kingdom",2013);
-	setTimeout(function() {storyByCountryName("United Kingdom",2014);},7000);
-	setTimeout(function() {resetMap(2013);},17000);
-	setTimeout(function() {storyByCountryName("Burkina Faso",2013);},18000);
-	setTimeout(function() {storyByCountryName("Burkina Faso",2014);},25000);
-	setTimeout(function() {resetMap(2013);},35000);
-	setTimeout(function() {storyByCountryName("United Kingdom",2013);},36000);
-	setTimeout(function() {storyByCountryName("United Kingdom",2014);},43000);
-	setTimeout(function() {resetMap(2014);},53000);
+function toggleStoryBar() {
+	if (storyPanelHidden) {
+		$("#player").animate({top: 415},2000);
+		document.getElementById("player-up-down").innerHTML = "&dArr; Hide story bar &dArr;";
+		storyPanelHidden = false;
+		
+	} else {
+		$("#player").animate({top: 535},2000);
+		document.getElementById("player-up-down").innerHTML = "&uArr; Show story bar &uArr;";
+		storyPanelHidden = true;
+	}
 }
 
+function hideStoryBar() {
+	storyPanelHidden = false;
+	toggleStoryBar();
+}
+
+function showStoryBar() {
+	storyPanelHidden = true;
+	toggleStoryBar();
+}
+
+function emptyStoryBar() {
+	document.getElementById("player-div").innerHTML = "No stories available for selected year.";
+}
+
+function populateStoryBar(year) {
+	emptyStoryBar();
+	$.getJSON("js/stories.json", function(data) {
+		stories = data;
+		toProcess = stories[year];
+		if (toProcess) {
+			document.getElementById("player-div").innerHTML = "";
+		}
+		for(i=0;i<toProcess.length;i++) {
+			story = toProcess[i];
+			drawStoryBarElement(story,year);
+		}
+	})
+	.error(function(jqXHR, textStatus, errorThrown) {
+	        console.log("error " + textStatus);
+        	console.log("incoming Text " + jqXHR.responseText);
+	});
+}
+
+function drawStoryBarElement(story,year) {
+	var storyBar = document.getElementById("player-div");
+	var thing = '<nav id="storyElement" onclick=\'tellStory("'+story.country+'",'+year+');\'><b>'+story.country+'</b><br/><img id="story_flag" src="img/flags/'+story.country+'.png"></img><br/>'+story.headline+'</nav>';
+	storyBar.innerHTML = storyBar.innerHTML + thing;
+}
+
+function positionBox(box) {
+	var dom = document.getElementById("story_block");
+	dom.style.top = box.y;
+	dom.style.left = box.x;
+	dom.style.width = box.w;
+	dom.style.height = box.h;
+//	dom.style.font-size = box.f;
+	$("#storyPart1").html("");
+	$("#storyPart2").html("");
+}
+
+function setStoryBoxText(text,part) {
+	var dom = document.getElementById("story_block");
+	$("#storyPart" + part).hide( function() {
+		$("#storyPart" + part).html(text);
+		$("#storyPart" + part).fadeIn("slow");
+	});
+}
+
+function progressBarSimple() {
+	var dom = document.getElementById("player-up-down");
+	dom.innerHTML = '<div id="progressBar" style="background: rgb(32,32,32); height: 20px; margin-top: 2px; width: 1px;"></div>';
+	timeout = setInterval(function() {updateProgress();},80);
+	setTimeout(function() {clearTimeout(timeout);},13800);
+}
+
+function updateProgress() {
+	width = $("#progressBar").width();
+	width = width + 1;
+	$("#progressBar").width(width);
+}
+
+function tellStory(country,year) {
+	toProcess = stories[year];
+	var local_story;
+	for(i=0;i<toProcess.length;i++) {
+		if (toProcess[i].country == country) {
+			local_story = toProcess[i];
+		}
+	}
+	positionBox(story.box);
+	hideStoryBar();
+	setTimeout(function() {storyByCountryName(local_story.country,year-1);},1000);
+	setTimeout(function() {progressBarSimple();},1100);
+	setTimeout(function() {$("#story_block").hide( function() { 
+				   $("#story_block").fadeIn('slow');
+			         });
+			      },1500);
+	setTimeout(function() {setStoryBoxText(local_story.part1,1);},2500);
+	setTimeout(function() {storyByCountryName(local_story.country,year);},7000);
+	setTimeout(function() {setStoryBoxText(local_story.part2,2);},8000);
+	setTimeout(function() {$("#story_block").fadeOut("slow");},14000);
+	setTimeout(function() {resetMap(year);},15000);
+	setTimeout(function() {showStoryBar();},15000);
+}

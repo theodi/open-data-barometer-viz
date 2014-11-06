@@ -131,7 +131,6 @@ var RadarChart = {
 		  ]);
 		});
 	  dataValues.push(dataValues[0]);
-          console.log(cfg.color(series));
 	  g.selectAll(".area")
 					 .data([dataValues])
 					 .enter()
