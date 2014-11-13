@@ -59,8 +59,8 @@ queue()
     .defer(d3.json, "data/cities.json")
     .defer(d3.csv, "data/ODB-2013-Rankings.csv")
     .defer(d3.csv, "data/ODB-2013-Datasets-Scored.csv")
-    .defer(d3.csv, "data/ODB-2014-Rankings-FAKE.csv")
-    .defer(d3.csv, "data/ODB-2014-Datasets-Scored-FAKE.csv")
+    .defer(d3.csv, "data/ODB-2014-Rankings.csv")
+    .defer(d3.csv, "data/ODB-2014-Datasets-Scored.csv")
     .defer(d3.csv, "data/countries_income.csv")
     .await(ready);
 
@@ -110,31 +110,31 @@ function ready(error, world, names, points, odbdata2013, datasetScores2013, odbd
     d.datasets = {};
     var tryit2 = odbdata2013.filter(function(n) { return d.name == n.Country; })[0];
     if (typeof tryit2 === "undefined"){
-//	console.log("Failed in match 2: " + d.name);
+	console.log("Failed in match 2: " + d.name);
     } else {
     	d.odbdata["2013"] = tryit2;
     }
     var tryit3 = datasetScores2013.filter(function(n) { return d.name == n.Country; });
     if (typeof tryit3 === "undefined"){
-//	console.log("Failed in match 3: " + d.name);
+	console.log("Failed in match 3: " + d.name);
     } else {
 	d.datasets["2013"] = tryit3;
     } 
     var tryit2 = odbdata2014.filter(function(n) { return d.name == n.Country; })[0];
     if (typeof tryit2 === "undefined"){
-//	console.log("Failed in match 2: " + d.name);
+	console.log("Failed in match 4: " + d.name);
     } else {
     	d.odbdata["2014"] = tryit2;
     }
     var tryit3 = datasetScores2014.filter(function(n) { return d.name == n.Country; });
     if (typeof tryit3 === "undefined"){
-//	console.log("Failed in match 3: " + d.name);
+	console.log("Failed in match 5: " + d.name);
     } else {
 	d.datasets["2014"] = tryit3;
     } 
     var tryit4 = income.filter(function(n) { return d.name == n.Country; })[0];
     if (typeof tryit4 === "undefined"){
-//	console.log("Failed in match 3: " + d.name);
+	console.log("Failed in match 6: " + d.name);
     } else {
 	d.income = tryit4.Tier;
     } 
