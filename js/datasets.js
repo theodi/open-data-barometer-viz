@@ -12,7 +12,7 @@ var Datasets = {
 		labels.push(temp[1]);
 	}	
 
-	var w = 760;
+	var w = 800;
 	var h = 120;
 	d3.select(id).select("svg").remove();
 	
