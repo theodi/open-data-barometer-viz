@@ -90,16 +90,16 @@ h2 {
 	top: 2px;
 }
 #arrow {
-	font-size: 2em;
+	font-size: 1.4em;
 	position: relative;
-	right: 20px;
-	bottom: 20px;
+	right: 32px;
+	bottom: 18px;
 }
 #movement {
 	position: relative;
-	right: 25px;
-	bottom: 20px;
-	font-size: 1.4em;
+	right: 38px;
+	bottom: 18px;
+	font-size: 1.2em;
 }
 #warning {
 	position: absolute;
@@ -347,4 +347,16 @@ h2 {
 	width: 450px;
 	height: 250px;
 	z-index: 30;
+}
+#odb-score-span {
+	position: absolute;
+	left: 120px;
+	font-size: 1.1em;
+	top: 41px;
+}
+#odb-score-change {
+	position: absolute;
+	top: 56px;
+	left: 160px;
+	font-size: 1.1em;
 }

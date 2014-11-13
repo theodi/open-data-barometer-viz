@@ -257,6 +257,8 @@ function drawStats(d) {
 	document.getElementById("datasets").innerHTML = "";
 	document.getElementById("arrow").innerHTML = "";
 	document.getElementById("movement").innerHTML = "";
+	document.getElementById("odb-score").innerHTML = "---";
+	document.getElementById("odb-score-change").innerHTML = "";
 	$("#movement").hide();
 	$("#arrow").hide();
 	
@@ -271,6 +273,7 @@ function drawStats(d) {
 		} else {
 			document.getElementById("score").innerHTML = d.odbdata[year]["ODB-Rank"];
 		}
+		document.getElementById("odb-score").innerHTML = d.odbdata[year]["ODB-Score"];
 		if (d.odbdata[year-1]) {
 			movement = d.odbdata[year-1]["ODB-Rank"] - d.odbdata[year]["ODB-Rank"];
 			if (movement > 0) {
@@ -287,8 +290,27 @@ function drawStats(d) {
 				document.getElementById("arrow").style.color = "red";
 				document.getElementById("movement").style.color = "red";
 			}
-			$("#movement").animate({left: 20, opacity: "show"},2000);
-			$("#arrow").animate({left: 20, opacity: "show"},2000);
+			odbscorechange = d.odbdata[year-1]["ODB-Score"] - d.odbdata[year]["ODB-Score"];
+			odbscorechange = parseFloat(odbscorechange.toFixed(4));
+			if (odbscorechange > 0) {
+				document.getElementById("odb-score-change").innerHTML = "+" + odbscorechange;
+				document.getElementById("odb-score-change").style.color = "green";
+				document.getElementById("odb-score-change").style.left = "160px";
+				if (d.odbdata[year]["ODB-Score"] < 0) {
+					document.getElementById("odb-score-change").style.left = "166px";
+				}
+			}
+			if (odbscorechange < 0) {
+				document.getElementById("odb-score-change").innerHTML = odbscorechange;
+				document.getElementById("odb-score-change").style.color = "red";
+				document.getElementById("odb-score-change").style.left = "172px";
+				if (d.odbdata[year]["ODB-Score"] < 0) {
+					document.getElementById("odb-score-change").style.left = "178px";
+				}
+			}
+			$("#odb-score-change").fadeIn();
+			$("#movement").fadeIn();
+			$("#arrow").fadeIn();
 		}
 		var top = [];
 		for (i=(year-1);i<=year;i++) {
@@ -339,12 +361,22 @@ function drawStats(d) {
 
 function switchYear(year) {
 	document.getElementById("year").value = year;
+	if (year == 2013) {
+		document.getElementById("outof").innerHTML = "/77";
+	} else if (year == 2014) {
+		document.getElementById("outof").innerHTML = "/86";
+	}
 	changeYear();
 }
 
 function changeYear() {
 	prevyear = year;
 	year = document.getElementById("year").value;
+	if (year == 2013) {
+		document.getElementById("outof").innerHTML = "/77";
+	} else if (year == 2014) {
+		document.getElementById("outof").innerHTML = "/86";
+	}
 	populateStoryBar(year);
 	if (current) {
 		drawStats(current);
