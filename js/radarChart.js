@@ -9,7 +9,8 @@
 //http://nbremer.blogspot.nl/2013/09/making-d3-radar-chart-look-bit-better.html
 
 var RadarChart = {
-  draw: function(id, d, options){
+  draw: function(id, d, print, options){
+  console.log("radar print " + print);
   var colors = ["#1f77b4","#9467bd","#2ca02c"];
   var cfg = {
 	 radius: 5,
@@ -67,7 +68,7 @@ var RadarChart = {
 	   .attr("x2", function(d, i){return levelFactor*(1-cfg.factor*Math.sin((i+1)*cfg.radians/total));})
 	   .attr("y2", function(d, i){return levelFactor*(1-cfg.factor*Math.cos((i+1)*cfg.radians/total));})
 	   .attr("class", "line")
-	   .style("stroke", "grey")
+	   .style("stroke", function(j, i){if (print) {return "#777";} else {return "#grey";}})
 	   .style("stroke-opacity", "0.75")
 	   .style("stroke-width", "0.3px")
 	   .attr("transform", "translate(" + (cfg.w/2-levelFactor) + ", " + (cfg.h/2-levelFactor) + ")");
@@ -85,9 +86,9 @@ var RadarChart = {
 	   .attr("class", "legend")
 	   .style("font-family", "sans-serif")
 	   .style("font-size", "10px")
-	   .style("color", "white")
+	   .style("color", function(j, i){if (print) {return "black";} else {return "white";}})
 	   .attr("transform", "translate(" + (cfg.w/2-levelFactor + cfg.ToRight) + ", " + (cfg.h/2-levelFactor) + ")")
-	   .attr("fill", "#fff")
+	   .style("fill", function(j, i){if (print) {return "black";} else {return "white";}})
 	   .text(Format((j+1)*cfg.maxValue/cfg.levels));
 	}
 	
@@ -105,14 +106,14 @@ var RadarChart = {
 		.attr("x2", function(d, i){return cfg.w/2*(1-cfg.factor*Math.sin(i*cfg.radians/total));})
 		.attr("y2", function(d, i){return cfg.h/2*(1-cfg.factor*Math.cos(i*cfg.radians/total));})
 		.attr("class", "line")
-		.style("stroke", "#ddd")
+	   	.style("stroke", function(j, i){if (print) {return "#777";} else {return "#ddd";}})
 		.style("stroke-width", "1px");
 
 	axis.append("text")
 		.attr("class", "legend")
 		.text(function(d){return d})
 		.style("font-family", "sans-serif")
-		.style("fill", "#fff")
+	   	.style("fill", function(j, i){if (print) {return "black";} else {return "white";}})
 		.style("font-size", "11px")
 		.attr("text-anchor", "middle")
 		.attr("dy", "1.5em")
@@ -145,7 +146,7 @@ var RadarChart = {
 						 }
 						 return str;
 					  })
-					 .style("fill", function(j, i){return cfg.color(series)})
+					 .style("fill", function(j, i){if (print) {return "#ffffff";} else {return cfg.color(series);}})
 					 .style("fill-opacity", cfg.opacityArea)
 					 .on('mouseover', function (d){
 										z = "polygon."+d3.select(this).attr("class");

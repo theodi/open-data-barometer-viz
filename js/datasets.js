@@ -1,5 +1,5 @@
 var Datasets = {
-  draw: function(id, datasets, year, redraw){
+  draw: function(id, datasets, year, redraw, print){
 	var dataset = [];
 	var outline = [];
 	var labels = [];
@@ -56,10 +56,8 @@ var Datasets = {
 		.attr("r", function(d) {
 			return d/4;
 		});
-	if (redraw) {
-		if (redraw) {
-			d3.select("#dataset-labels").select("svg").remove();
-		}
+	if (redraw || print) {
+		d3.select("#dataset-labels").select("svg").remove();
 		h = 130;
 		var elem = d3.select("#dataset-labels")
 			.append("svg")
@@ -76,7 +74,7 @@ var Datasets = {
 			return labels[i];
 		   })
 		   .attr("font-size", "10px")
-		   .attr("fill", "#fff")
+	           .style("fill", function(j, i){if (print) {return "#111";} else {return "#fff";}})
 		   .attr("transform", function(d,i) {
 			x = i * 50 + 40;
 			y = h - 60;
