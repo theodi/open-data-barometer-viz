@@ -155,7 +155,7 @@ function ready(error, world, names, points, odbdata2013, datasetScores2013, odbd
       .on("mousemove", function(d,i) {
       })
       .on("click", function(d,i) {
-	drawStats(d);
+	drawStats(d,false);
 	current = d;
 	zoomTo(d);
       })
@@ -168,7 +168,7 @@ function zoomCountry(countryName) {
   
   countries.forEach(function(d) {
 	if (d.name == countryName) {
-		drawStats(d);
+		drawStats(d,false);
 		current = d;
 		zoomTo(d);
 	}
@@ -178,7 +178,7 @@ function zoomCountry(countryName) {
 function selectCountry(countryName) {
   countries.forEach(function(d) {
 	if (d.name == countryName) {
-		drawStats(d);
+		drawStats(d,false);
 		current = d;
 	}
   });	
@@ -222,7 +222,7 @@ function zoomTo(d) {
 		.style("stroke-width", 1.5 / k + "px");
 }
 
-function drawStats(d) {
+function drawStats(d,changedYear) {
   var country = svg.selectAll(".country").data(countries);
   country
    .style("fill", function(d, i) { return getColor(d); });
@@ -254,7 +254,6 @@ function drawStats(d) {
 	document.getElementById("country").appendChild(incomeSpan);
 	document.getElementById("score").innerHTML = "X";
 	document.getElementById("radar").innerHTML = "";
-	document.getElementById("datasets").innerHTML = "";
 	document.getElementById("arrow").innerHTML = "";
 	document.getElementById("movement").innerHTML = "";
 	document.getElementById("odb-score").innerHTML = "---";
@@ -262,10 +261,18 @@ function drawStats(d) {
 	$("#movement").hide();
 	$("#arrow").hide();
 	
-
-	if (d.datasets[year]) {
-		Datasets.draw("#datasets",d.datasets[year]);
+	if (!changedYear) {
+		document.getElementById("datasetsinner").innerHTML = '<nav id="datasets-nav-horizontal" onClick="hideDatasetsHistory();"><span id="nav-inner-horizontal">......</span></nav>';
+		redraw = true;
+		for (y in d.datasets) {
+			Datasets.draw("#datasetsinner",d.datasets[y],y,redraw);
+			redraw = false;
+		}
 	}
+	if (year != 2013) {
+		$("#datasets-nav-vertical").fadeTo("fast",1);
+	}
+
 	if (d.odbdata[year]) {
 		newScore = d.odbdata[year]["ODB-Rank"];
 		if (oldScore > 0 && prevyear < year) {
@@ -363,8 +370,12 @@ function switchYear(year) {
 	document.getElementById("year").value = year;
 	if (year == 2013) {
 		document.getElementById("outof").innerHTML = "/77";
+		$("#datasetsinner").animate({top:0},2000);
+		$("#datasets-nav-vertical").fadeTo("fast",0);
 	} else if (year == 2014) {
 		document.getElementById("outof").innerHTML = "/86";
+		$("#datasetsinner").animate({top:-65},2000);
+		$("#datasets-nav-vertical").fadeTo("fast",1);
 	}
 	changeYear();
 }
@@ -374,15 +385,64 @@ function changeYear() {
 	year = document.getElementById("year").value;
 	if (year == 2013) {
 		document.getElementById("outof").innerHTML = "/77";
+		$("#datasetsinner").animate({top:0},2000);
+		$("#datasets-nav-vertical").fadeTo("fast",0);
 	} else if (year == 2014) {
 		document.getElementById("outof").innerHTML = "/86";
+		$("#datasetsinner").animate({top:-65},2000);
+		$("#datasets-nav-vertical").fadeTo("fast",1);
 	}
 	populateStoryBar(year);
 	if (current) {
-		drawStats(current);
+		drawStats(current,true);
 	} else {
-		drawStats();
+		drawStats(null,true);
 	}
+}
+
+function showDatasetsHistory() {
+	$("#datasets-nav-horizontal").fadeTo("fast",1);
+	$("#datasets-nav-vertical").fadeOut();
+	$("#map").fadeTo(2000,0.2);
+	if (year == 2014) {
+		$("#datasetsinner").animate({top:0},2000);
+	} 
+	if (year == 2013) {
+		$("#datasetsinner").animate({top:0},2000);
+	}
+	$("#datasets-div").animate({top:360},2000);
+	ch = $("#datasets").height();
+	setTimeout(function(){changeHeight(ch,"datasets","up",131)},28);
+}
+
+function hideDatasetsHistory() {
+	$("#datasets-nav-horizontal").fadeTo("fast",0);
+	$("#datasets-nav-vertical").fadeIn();
+	$("#map").fadeTo(2000,1);
+	if (year == 2014) {
+		$("#datasetsinner").animate({top:-65},2000);
+	} 
+	if (year == 2013) {
+		$("#datasetsinner").animate({top:0},2000);
+	}
+	$("#datasets-div").animate({top:420},2000);
+	ch = $("#datasets").height();
+	setTimeout(function(){changeHeight(ch,"datasets","down",60)},28);
+}
+
+function changeHeight(ch,element,direction,limit) {
+	if (direction == "up") {
+		nh = ch + 1;
+	} else {
+		nh = ch - 1;
+	}
+	$("#" + element).height(nh);
+	if (direction == "up" && nh < limit) {
+		setTimeout(function(){changeHeight(nh,element,direction,limit)},28);
+	}
+	if (direction == "down" && nh > limit) {
+                setTimeout(function(){changeHeight(nh,element,direction,limit)},28);
+        }
 }
 
 function storyByCountryName(countryName,year) {

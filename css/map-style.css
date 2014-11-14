@@ -183,12 +183,31 @@ h2 {
   position: relative;
   left: -20px;
 }
-#datasets {
+#datasets-div {
   position: relative;
   top: 420px;
   left: 400px;
-  width: 800px;
+  width: 780px;
+  height: 150px;
 }
+#dataset-labels {
+  position: relative;
+  width: inherit;
+  height: 60px;
+}
+#datasets {
+  position: relative;
+  width: inherit;
+  height: 60px;
+  top: 15px;
+  overflow: hidden;
+}
+#datasetsinner {
+  position: relative;
+  width: inherit;
+  height: 180px;
+}
+
 #legend {
   padding: 6px 8px;
   background: rgba(64,64,64,0.8);
@@ -291,10 +310,50 @@ h2 {
   stroke-width: .1px;
   stroke-linejoin: round;
 }
+#datasets-nav-horizontal {
+	height: 12px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	border-top: 1px solid white;
+	width: 32px;
+	position: absolute;
+	left: 713px;
+	top: 120px;
+	z-index: 30;
+	opacity: 0;
+	cursor: pointer;
+}
+#nav-inner-horizontal {
+	bottom: 10px;
+	position: relative;
+	left: 3px;
+}
+#datasets-nav-vertical {
+	width: 12px;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+	height: 32px;
+	position: absolute;
+	left: 760px;
+	top: 90px;
+	z-index:30;
+	cursor: pointer;
+	opacity: 0;
+}
+#nav-inner-vertical {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+	display: block;
+	position: relative;
+	left: 24px;
+	top: 2px;
+}
 #player {
 	width: 100%;
 	position: absolute;
 	top: 535px;
+	display: none;
 }
 #player-up-down {
 	position: relative;

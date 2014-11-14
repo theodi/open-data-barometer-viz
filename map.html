@@ -12,7 +12,7 @@
   <div id="warning">
 	WARNING: THE 2014 DATA IS FAKE!!!
   </div>
-  <select id="year" title="Select year" onclick="changeYear()">
+  <select id="year" title="Select year" onchange="changeYear();">
 	<option id="2013" style='color: #1f77b4;'>2013</option>
 	<option id="2014" style='color: #9467bd;'>2014</option>
   </select>
@@ -43,7 +43,10 @@
   </div>
   <div id="map">
   </div>
-  <div id="datasets">
+  <div id="datasets-div">
+	<nav id="datasets-nav-vertical" onClick="showDatasetsHistory();"><span id="nav-inner-vertical">......</span></nav>
+	<div id="dataset-labels"></div>
+	<div id="datasets"><div id="datasetsinner"></div></div>
   </div>
   <div id="logo">
 	<a target="_blank" href="http://opendatabarometer.org"><img class="logoimg" src="img/ODB_white.png" alt="The Open Data Barometer"></img></a>
