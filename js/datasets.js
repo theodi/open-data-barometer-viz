@@ -10,7 +10,12 @@ var Datasets = {
 		temp = item["Dataset"].split("-",2);
 		temp[1] = temp[1].trim();
 		labels.push(temp[1]);
-	}	
+	}
+	if (datasets.length < 15) {
+		dataset.push("n/a");
+		outline.push("n/a");
+		labels.push("Procurement");
+	}
 
 	var w = 780;
 	var h = 60;
@@ -56,6 +61,15 @@ var Datasets = {
 		.attr("r", function(d) {
 			return d/4;
 		});
+	var text = groups.append("text")
+		.attr("dx", function(d, i) {
+                     return (i * 50) + 25;
+                })
+                .attr("dy", h - hr)
+		.attr("font-size", "10px")
+	        .style("fill", function(j, i){if (print) {return "#111";} else {return "#fff";}})
+		.text(function(d) { if (d == "n/a") { return "n/a" }});
+
 	if (redraw || print) {
 		d3.select("#dataset-labels").select("svg").remove();
 		h = 130;
