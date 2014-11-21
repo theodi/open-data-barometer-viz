@@ -334,7 +334,7 @@ function drawStats(d,changedYear) {
 				document.getElementById("arrow").style.color = "red";
 				document.getElementById("movement").style.color = "red";
 			}
-			odbscorechange = d.odbdata[year-1]["ODB-Score"] - d.odbdata[year]["ODB-Score"];
+			odbscorechange = d.odbdata[year]["ODB-Score"] - d.odbdata[year-1]["ODB-Score"];
 			odbscorechange = parseFloat(odbscorechange.toFixed(4));
 			if (odbscorechange > 0) {
 				document.getElementById("odb-score-change").innerHTML = "+" + odbscorechange;
