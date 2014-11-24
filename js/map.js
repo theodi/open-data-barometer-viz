@@ -127,7 +127,7 @@ function getColor(d,i){
 	}
 }
 
-function ready(error, world, names, points, odbdata2013, datasetScores2013, odbdata2014, datasetScores2014,income) {
+function ready(error, world, names, points, odbdata2013, datasetScores2013, odbdata2014, datasetScores2014, income) {
   countries = topojson.object(world, world.objects.countries).geometries,
       neighbors = topojson.neighbors(world, countries),
       i = -1,
@@ -141,28 +141,29 @@ function ready(error, world, names, points, odbdata2013, datasetScores2013, odbd
       console.log("Failed in match 1: " + d);
     } else {
       d.name = tryit.name; 
+      d.ISO2 = tryit.ISO2
     }
     d.odbdata = {};
     d.datasets = {};
-    var tryit2 = odbdata2013.filter(function(n) { return d.name == n.Country; })[0];
+    var tryit2 = odbdata2013.filter(function(n) { return d.ISO2 == n.ISO2;  })[0];
     if (typeof tryit2 === "undefined"){
 	console.log("Failed in match 2: " + d.name);
     } else {
     	d.odbdata["2013"] = tryit2;
     }
-    var tryit3 = datasetScores2013.filter(function(n) { return d.name == n.Country; });
+    var tryit3 = datasetScores2013.filter(function(n) { return d.ISO2 == n.ISO2; });
     if (typeof tryit3 === "undefined"){
 	console.log("Failed in match 3: " + d.name);
     } else {
 	d.datasets["2013"] = tryit3;
     } 
-    var tryit2 = odbdata2014.filter(function(n) { return d.name == n.Country; })[0];
+    var tryit2 = odbdata2014.filter(function(n) { return d.ISO2 == n.ISO2; })[0];
     if (typeof tryit2 === "undefined"){
 	console.log("Failed in match 4: " + d.name);
     } else {
     	d.odbdata["2014"] = tryit2;
     }
-    var tryit3 = datasetScores2014.filter(function(n) { return d.name == n.Country; });
+    var tryit3 = datasetScores2014.filter(function(n) { return d.ISO2 == n.ISO2; });
     if (typeof tryit3 === "undefined"){
 	console.log("Failed in match 5: " + d.name);
     } else {
@@ -333,7 +334,7 @@ function drawStats(d,changedYear) {
 				document.getElementById("arrow").style.color = "red";
 				document.getElementById("movement").style.color = "red";
 			}
-			odbscorechange = d.odbdata[year-1]["ODB-Score"] - d.odbdata[year]["ODB-Score"];
+			odbscorechange = d.odbdata[year]["ODB-Score"] - d.odbdata[year-1]["ODB-Score"];
 			odbscorechange = parseFloat(odbscorechange.toFixed(4));
 			if (odbscorechange > 0) {
 				document.getElementById("odb-score-change").innerHTML = "+" + odbscorechange;
