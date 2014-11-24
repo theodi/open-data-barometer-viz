@@ -11,11 +11,26 @@ var Datasets = {
 		temp[1] = temp[1].trim();
 		labels.push(temp[1]);
 	}
-	if (datasets.length < 15) {
+/*
+FIXME: This following section is a hack to deal with data that is not present and why the data HAS to be in an order 
+*/
+	var defaultLabels = ["Map","Land","Census","Budget","Spend","Company","Legislation","Transport","Trade","Health","Education","Crime","Environment","Elections","Procurement"];
+	if (datasets.length < 1) {
+		for (i=0;i<15;i++) {
+			dataset.push("n/a");
+			outline.push("n/a");
+			labels.push(defaultLabels[i]);
+		}
+	} else if (datasets.length < 15) {
 		dataset.push("n/a");
 		outline.push("n/a");
 		labels.push("Procurement");
 	}
+
+/*
+END FIXME
+*/
+
 
 	var w = 780;
 	var h = 60;
