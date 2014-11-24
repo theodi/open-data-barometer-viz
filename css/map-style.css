@@ -343,6 +343,14 @@ h2 {
 #nav-inner-vertical {
 	transform: rotate(90deg);
 	transform-origin: left top 0;
+	-webkit-transform: rotate(90deg);
+	-webkit-transform-origin: left top 0;
+        -moz-transform: rotate(90deg);
+	-moz-transform-origin: left top 0;
+        -o-transform: rotate(90deg);
+	-o-transform-origin: left top 0;
+    	-ms-transform: rotate(90deg);
+	-ms-transform-origin: left top 0;
 	display: block;
 	position: relative;
 	left: 24px;
