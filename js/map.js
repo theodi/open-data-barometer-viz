@@ -371,7 +371,7 @@ function drawStats(d,changedYear) {
 			data.push(obj);
 			var obj = {};
 			obj.axis = "Impacts: Economic";
-			obj.value = d.odbdata[i]["Impacts_Economic-Scaled"] / 100;
+			obj.value = d.odbdata[i]["Impact_Economic-Scaled"] / 100;
 			data.push(obj);
 			var obj = {};
 			obj.axis = "Impacts: Social";
