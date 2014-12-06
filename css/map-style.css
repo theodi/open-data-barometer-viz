@@ -52,8 +52,8 @@ table {
 
 
 body {
-  background-color: #404040;
-  color: #eee;
+  background-color: white;
+  color: #111;
   font-family: 'FreeUniversal', sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -80,9 +80,9 @@ h2 {
 	right: 48px;
 }
 #year {
-	border: 2px solid #eee;
-	background-color: #404040;
-	color: #eee;
+	border: 2px solid #111;
+	background-color: #fff;
+	color: #111;
 	font-size: 1.5em;
 	border-radius: 8px;
 	position: absolute;
@@ -166,7 +166,7 @@ h2 {
 	left: 20px;
 }
 #credit a {
-	color: #eee;
+	color: #111;
 	text-decoration: underline;
 }
 .logoimg {
@@ -205,6 +205,7 @@ h2 {
   position: relative;
   width: inherit;
   height: 180px;
+  top: -65px;
 }
 
 #legend {

@@ -2,14 +2,14 @@
 var width  = 850,
     height = 400;
 
-var year = 2013;
+var year = 2014;
 var prevyear;
 var current;
 var countries;
 var centered;
 var stories; 
 var storyPanelHidden = true;
-var print = false;
+var print = true;
 
 var color = d3.scale.category10();
 
