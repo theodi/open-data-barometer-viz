@@ -2,14 +2,14 @@
 var width  = 850,
     height = 400;
 
-var year = 2013;
+var year = 2014;
 var prevyear;
 var current;
 var countries;
 var centered;
 var stories; 
 var storyPanelHidden = true;
-var print = false;
+var print = true;
 
 var color = d3.scale.category10();
 
@@ -371,7 +371,7 @@ function drawStats(d,changedYear) {
 			data.push(obj);
 			var obj = {};
 			obj.axis = "Impacts: Economic";
-			obj.value = d.odbdata[i]["Impacts_Economic-Scaled"] / 100;
+			obj.value = d.odbdata[i]["Impact_Economic-Scaled"] / 100;
 			data.push(obj);
 			var obj = {};
 			obj.axis = "Impacts: Social";
