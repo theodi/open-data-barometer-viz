@@ -205,6 +205,7 @@ h2 {
   position: relative;
   width: inherit;
   height: 180px;
+  top: -65px;
 }
 
 #legend {
