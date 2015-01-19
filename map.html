@@ -6,25 +6,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/map-style.css" />
   	<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/freeuniversal" rel="stylesheet" type="text/css"/>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-34573394-8', 'theodi.github.io');
-  ga('send', 'pageview');
-
-</script>
-
 </head>
 <body>
   <div id="container">
+  <div id="warning">
+  </div>
+
+  <select id="year" title="Select year" onchange="changeYear();">
+	<option id="2014" style='color: #9467bd;'>2014</option>
+	<option id="2013" style='color: #1f77b4;'>2013</option>
+  </select>
   <div id="code" title="Get the code">
-  	<a href="https://github.com/theodi/open-data-barometer-viz/tree/gh-pages" target="_blank"><img src="img/github-128.png" width="32px" alt="Get the code"></a>
+  	<a href="https://github.com/theodi/open-data-barometer-viz/tree/gh-pages" target="_blank"><img id="githubimg" src="img/github-128_white.png" width="32px" alt="Get the code"></a>
   </div>
   <div id="help" onclick="showHelp()" title="Help">
-	<img src="img/help.png" width="30px" alt="Help"/>
+	<img id="helpimg" src="img/help_white.png" width="30px" alt="Help"/>
   </div>
     <div id="sidebar">
       <div id="detail">
@@ -32,20 +28,39 @@
 		Select a country
 	</h2>
         <span id="score">_</span><span id="outof">/77</span>
+	<span id="arrow"></span>
+        <span id="movement"></span>
+        <span id="odb-score-span">Score: <span id="odb-score">---</span></span>
+        <span id="odb-score-change"></span>
       </div>
       <div id="radar">
       </div>
     </div>
   </div>
+  <div id="story_block">
+	<p id="storyPart1"></p><br/>
+	<p id="storyPart2"></p><br/>
+  </div>
   <div id="map">
   </div>
-  <div id="datasets">
+  <div id="datasets-div">
+	<nav id="datasets-nav-vertical" onClick="showDatasetsHistory();"><span id="nav-inner-vertical">......</span></nav>
+	<div id="dataset-labels"></div>
+	<div id="datasets"><div id="datasetsinner"></div></div>
   </div>
   <div id="logo">
 	<a target="_blank" href="http://opendatabarometer.org"><img class="logoimg" src="img/ODB_white.png" alt="The Open Data Barometer"></img></a>
   </div>
   <div id="credit">
-	License: <a href="http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB" target="_blank" rel="license">CC-BY-SA</a> | Visualisation by <a target="_blank" href="http://theodi.org/team/david-tarrant">David Tarrant</a> | <a target="_blank" href="http://www.opendatabarometer.org">Full report</a> | <a target="_blank" href="http://www.opendataresearch.org/content/2013/535/get-data-open-data-barometer-2013">Get the data</a>
+	License: <a href="http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB" target="_blank" rel="license">CC-BY-SA</a> | Visualisation by <a target="_blank" href="http://theodi.org/team/david-tarrant">David Tarrant</a> | <a target="_blank" href="http://www.opendatabarometer.org">Full report</a> | <a target="_blank" href="http://barometer.opendataresearch.org/report/about/data.html">Get the data</a>
+  </div>
+  <div id="player">
+	<div id="player-up-down" onclick="toggleStoryBar();">
+		&uArr; Show story bar &uArr;
+	</div>
+	<nav id="player-div">
+		No stories available for selected year.		
+	</nav>
   </div>
   <div id="helpBox">
 	<div id="closeHelp" onClick="hideHelp()">

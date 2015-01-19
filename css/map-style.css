@@ -79,6 +79,34 @@ h2 {
 	top: 4px;
 	right: 48px;
 }
+#year {
+	border: 2px solid #eee;
+	background-color: #404040;
+	color: #eee;
+	font-size: 1.5em;
+	border-radius: 8px;
+	position: absolute;
+	right: 90px;
+	top: 2px;
+}
+#arrow {
+	font-size: 1.4em;
+	position: relative;
+	right: 32px;
+	bottom: 18px;
+}
+#movement {
+	position: relative;
+	right: 38px;
+	bottom: 18px;
+	font-size: 1.2em;
+}
+#warning {
+	position: absolute;
+	font-size: 1.3em;
+	left: 10px;
+	top: 5px;
+}
 #helpBox {
 	position: absolute;
 	top: 0px;
@@ -133,13 +161,12 @@ h2 {
 }
 #credit {
 	font-size: 10px;
-	color: white;
 	position: absolute;
 	top: 520px;
 	left: 20px;
 }
 #credit a {
-	color: white;
+	color: #eee;
 	text-decoration: underline;
 }
 .logoimg {
@@ -155,12 +182,32 @@ h2 {
   position: relative;
   left: -20px;
 }
-#datasets {
+#datasets-div {
   position: relative;
   top: 420px;
-  left: 420px;
-  width: 710px;
+  left: 400px;
+  width: 780px;
+  height: 150px;
 }
+#dataset-labels {
+  position: relative;
+  width: inherit;
+  height: 60px;
+}
+#datasets {
+  position: relative;
+  width: inherit;
+  height: 60px;
+  top: 15px;
+  overflow: hidden;
+}
+#datasetsinner {
+  position: relative;
+  width: inherit;
+  height: 180px;
+  top: -65px;
+}
+
 #legend {
   padding: 6px 8px;
   background: rgba(64,64,64,0.8);
@@ -262,4 +309,121 @@ h2 {
   stroke: #666;
   stroke-width: .1px;
   stroke-linejoin: round;
+}
+#datasets-nav-horizontal {
+	height: 12px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	border-top: 1px solid white;
+	width: 32px;
+	position: absolute;
+	left: 713px;
+	top: 120px;
+	z-index: 30;
+	opacity: 0;
+	cursor: pointer;
+}
+#nav-inner-horizontal {
+	bottom: 10px;
+	position: relative;
+	left: 3px;
+}
+#datasets-nav-vertical {
+	width: 12px;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+	height: 32px;
+	position: absolute;
+	left: 760px;
+	top: 90px;
+	z-index:30;
+	cursor: pointer;
+	opacity: 0;
+}
+#nav-inner-vertical {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+	-webkit-transform: rotate(90deg);
+	-webkit-transform-origin: left top 0;
+        -moz-transform: rotate(90deg);
+	-moz-transform-origin: left top 0;
+        -o-transform: rotate(90deg);
+	-o-transform-origin: left top 0;
+    	-ms-transform: rotate(90deg);
+	-ms-transform-origin: left top 0;
+	display: block;
+	position: relative;
+	left: 24px;
+	top: 2px;
+}
+#player {
+	width: 100%;
+	position: absolute;
+	top: 535px;
+	display: none;
+}
+#player-up-down {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 170px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        text-align: center;
+        border-top: 1px solid gray;
+        border-right: 1px solid gray;
+        border-left: 1px solid gray;
+        border-radius: 5px;
+}
+#player-div {
+	width: 90%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	bottom: 2px;
+	position: relative;
+	height: 100px;
+	background-color: rgba(32,32,32,0.8);
+	text-align: center;
+}
+#storyElement {
+	width: 180px;
+	text-align: center;
+	border: 1px solid white;
+	height: 100px;
+	margin-left: 5px;
+	margin-right: 5px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: rgb(32,32,32);
+}
+#story_block {
+	display: none;
+	border: 1px solid white;
+	border-radius: 5px;
+	background-color: rgba(32,32,32,0.9);
+	color: white;
+	font-size: 1.4em;
+	padding: 10px;
+	position: absolute;
+	top: 40px;
+	left: 360px;
+	width: 450px;
+	height: 250px;
+	z-index: 30;
+}
+#odb-score-span {
+	position: absolute;
+	left: 120px;
+	font-size: 1.1em;
+	top: 41px;
+}
+#odb-score-change {
+	position: absolute;
+	top: 56px;
+	left: 160px;
+	font-size: 1.1em;
 }
