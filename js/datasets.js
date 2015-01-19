@@ -65,7 +65,7 @@ END FIXME
 		.attr("cy", h - hr)
 		.transition(10000)
 		.attr("fill", fillColor)
-		.attr("stroke", "black")
+		.attr("stroke", function(j, i){if (print) {return "black";} else {return "white";}})
 		.attr("stroke-width", function(d, i) {
 			if (outline[i]>0) {
 				return 2

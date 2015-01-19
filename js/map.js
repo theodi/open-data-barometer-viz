@@ -2,7 +2,7 @@
 var width  = 850,
     height = 400;
 
-var year = 2013;
+var year = 2014;
 var prevyear;
 var current;
 var countries;

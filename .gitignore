@@ -1,6 +1,3 @@
 _site
 build
-data/ODB-2014-Datasets-Scored.csv
-data/ODB-2014-Rankings.csv
-data/ODB-2014-Datasets-Scored.csv
-data/ODB-2014-Rankings.csv
+data/ODB-2014-Rankings-Average.csv
