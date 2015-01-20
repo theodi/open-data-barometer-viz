@@ -317,7 +317,7 @@ function drawStats(d,changedYear) {
 		} else {
 			document.getElementById("score").innerHTML = d.odbdata[year]["ODB-Rank"];
 		}
-		document.getElementById("odb-score").innerHTML = d.odbdata[year]["ODB-Score"];
+		document.getElementById("odb-score").innerHTML = parseFloat(d.odbdata[year]["ODB-Scaled"]).toFixed(2);
 		if (d.odbdata[year-1]) {
 			movement = d.odbdata[year-1]["ODB-Rank"] - d.odbdata[year]["ODB-Rank"];
 			if (movement > 0) {
@@ -334,8 +334,8 @@ function drawStats(d,changedYear) {
 				document.getElementById("arrow").style.color = "red";
 				document.getElementById("movement").style.color = "red";
 			}
-			odbscorechange = d.odbdata[year]["ODB-Score"] - d.odbdata[year-1]["ODB-Score"];
-			odbscorechange = parseFloat(odbscorechange.toFixed(4));
+			odbscorechange = d.odbdata[year]["ODB-Scaled"] - d.odbdata[year-1]["ODB-Scaled"];
+			odbscorechange = parseFloat(odbscorechange.toFixed(2));
 			if (odbscorechange > 0) {
 				document.getElementById("odb-score-change").innerHTML = "+" + odbscorechange;
 				document.getElementById("odb-score-change").style.color = "green";
@@ -371,7 +371,7 @@ function drawStats(d,changedYear) {
 			data.push(obj);
 			var obj = {};
 			obj.axis = "Impacts: Economic";
-			obj.value = d.odbdata[i]["Impacts_Economic-Scaled"] / 100;
+			obj.value = d.odbdata[i]["Impact_Economic-Scaled"] / 100;
 			data.push(obj);
 			var obj = {};
 			obj.axis = "Impacts: Social";
