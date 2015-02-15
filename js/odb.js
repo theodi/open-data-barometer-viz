@@ -92,10 +92,16 @@ function generate_headers(key) {
                              api.column(groupCol, {page:'current'} ).data().each( function ( group, i ) {
                                  if ( last !== group ) {
                                      if(group == "") { group_text = "Others" } else { group_text = group }
-                                     $(rows).eq( i ).before(
-                                         '<tr class="group"><td colspan="'+(fields.length)+'">'+group_text+'</td></tr>'
-                                     );
-
+			             group_id = group_text.replace(/ /g,"_");
+				     if (groupCol == 1) {
+	                                     $(rows).eq( i ).before(
+        	                                 '<tr class="group"><td colspan="'+(fields.length)+'"><a href="#" id="'+group_id+'" onclick="showMiniHelp(\''+group_id+'\')">'+group_text+'</a></td></tr>'
+	                                     );
+				     } else {
+	                                     $(rows).eq( i ).before(
+        	                                 '<tr class="group"><td colspan="'+(fields.length)+'">'+group_text+'</td></tr>'
+				             );
+				     }
                                      last = group;
                                  }
                              } );

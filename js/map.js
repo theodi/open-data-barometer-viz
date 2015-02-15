@@ -51,11 +51,9 @@ $(document).keypress(function(e) {
 	if (e.which == 116) {
 		rop = $("#rankings").css('opacity');
 		if (rop > 0) {
-			rop = $("#rankings").css('opacity',0);
-			rop = $("#rankings").css('z-index',-100);
+			switchView("map");
 		} else {
-			rop = $("#rankings").css('opacity',1);
-			rop = $("#rankings").css('z-index',30);
+			switchView("table");
 		}
 	}
 	if (e.which == 112 && print) {
@@ -96,6 +94,25 @@ var g = svg.selectAll("g");
 
 function redraw() {
     svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+}
+
+function switchView(id) {
+	id = id.replace("View","");
+	if (id == "table") {
+		rop = $("#rankings").css('opacity',1);
+		rop = $("#rankings").css('z-index',30);
+		$("#tableLab").css("background","#eee");
+		$("#tableLab").css("color","#404040");
+		$("#mapLab").css("background","#404040");
+		$("#mapLab").css("color","#eee");
+	} else {
+		rop = $("#rankings").css('opacity',0);
+		rop = $("#rankings").css('z-index',-100);
+		$("#mapLab").css("background","#eee");
+		$("#mapLab").css("color","#404040");
+		$("#tableLab").css("background","#404040");
+		$("#tableLab").css("color","#eee");
+	}
 }
 
 function updateClusters(id,checked) {

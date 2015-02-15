@@ -5,7 +5,8 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/map-style.css" />
-        <link rel="css/jquery.dataTables.min.css"/>
+        <link rel="stylesheet" href="css/jquery.dataTables.min.css"/>
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
   	<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/freeuniversal" rel="stylesheet" type="text/css"/>
 </head>
 <body>
@@ -20,6 +21,15 @@
 	<input type="checkbox" id="clusters_Capacity_constrained" checked="true" onchange="updateClusters(this.id,this.checked);">Capacity constrained</input>
 	<input type="checkbox" id="clusters_One_sided_initiative" checked="true" onchange="updateClusters(this.id,this.checked);">One sided initiative</input>
   </div>
+  <form style="position: absolute; right: 175px; top: 2px;">
+  <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true" class="ui-controlgroup ui-controlgroup-horizontal ui-corner-all ui-mini"i style="margin: 0;">	<div class="ui-controlgroup-controls ">
+
+  <div class="ui-radio ui-mini"><label id="mapLab" for="mapView" class="ui-btn ui-corner-all ui-btn-inherit ui-first-child" style="background-color: #eee; color: black; padding: 0.6em 1em; border: 1px solid white;">Map View</label><input type="radio" name="radio-choice-h-6" id="mapView" value="MapView" checked="checked" onchange="switchView(this.id,this.checked);"></div>
+
+  <div class="ui-radio ui-mini"><label id="tableLab" for="tableView" class="ui-btn ui-corner-all ui-btn-inherit ui-last-child" style="background: #404040; color: #eee; padding: 0.6em 1em; border: 1px solid white;">Table View</label><input type="radio" name="radio-choice-h-6" id="tableView" value="TableView" onchange="switchView(this.id,this.checked);"></div>
+
+  </div></fieldset>
+  </form>
   <select id="year" title="Select year" onchange="changeYear();">
 	<option id="2014" style='color: #9467bd;'>2014</option>
 	<option id="2013" style='color: #1f77b4;'>2013</option>
@@ -73,13 +83,18 @@
 		No stories available for selected year.		
 	</nav>
   </div>
-  <div id="helpBox">
+  <div id="helpBox" style="z-index: 300;">
 	<div id="closeHelp" onClick="hideHelp()">
 		<img src="img/close_icon.png" width="30px"/>
 	</div>
 	<iframe id="frame1" src="about/index.html?hf=no" frameborder="0" scrolling="yes" width="100%" height="510px"></iframe>
   </div>
-  <script src="js/jquery-1.10.2.min.js"></script>
+  <div id="miniHelp" style="z-index: 300;">
+	<div id="closeHelp" onClick="hideMiniHelp()">
+		<img src="img/close_icon.png" width="30px"/>
+	</div>
+	<iframe id="miniHelpFrame" src="about/oneSided.html?hf=no" frameborder="0" scrolling="yes" width="100%" height="300px"></iframe>
+  </div>
   <script src="js/jquery-1.10.2.min.js"></script>
   <script src="js/jquery.csv-0.71.min.js"></script>
   <script src="js/jquery.csvToTable.js"></script>
