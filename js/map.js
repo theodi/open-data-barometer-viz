@@ -10,6 +10,11 @@ var centered;
 var stories; 
 var storyPanelHidden = true;
 var print = false;
+var clusters = {};
+clusters["One sided initiative"] = true;
+clusters["High capacity"] = true;
+clusters["Capacity constrained"] = true;
+clusters["Emerging and advancing"] = true;
 
 var color = d3.scale.category10();
 
@@ -32,8 +37,10 @@ $.ajaxSetup ({
     cache: false
 });
 
+odb_table();
+
 $(document).keypress(function(e) {
-	if (e.which == 109) {
+        if (e.which == 109) {
 		mop = $("#map").css('opacity');
 		if (mop > 0) {
 			mop = $("#map").css('opacity',0);
@@ -41,10 +48,30 @@ $(document).keypress(function(e) {
 			mop = $("#map").css('opacity',1);
 		}
 	}
+	if (e.which == 116) {
+		rop = $("#rankings").css('opacity');
+		if (rop > 0) {
+			switchView("map");
+		} else {
+			switchView("table");
+		}
+	}
+	if (e.which == 102) {
+		fop = $("#clusters").css('opacity');
+		if (fop > 0) {
+			hideFilters();
+		} else {
+			showFilters();
+		}
+	}
 	if (e.which == 112 && print) {
 		print = false;
 		$("body").css('background-color','#404040');
 		$("body").css('color','#eee');
+		$("#rankings").css('background','#404040');
+		$(".fixedHeader").css('background','#404040');
+		$("#rankings").css('color','#eee');
+		$("#rankings").css('border','1px solid white');
 		$("#credit > a").css('color','#eee');
 		$(".logoimg").attr("src","img/ODB_white.png");
 		$("#githubimg").attr("src","img/github-128_white.png");
@@ -53,6 +80,10 @@ $(document).keypress(function(e) {
 		print = true;
 		$("body").css('background-color','white');
 		$("body").css('color','#111');
+		$("#rankings").css('background','white');
+		$(".fixedHeader").css('background','white');
+		$("#rankings").css('color','#111');
+		$("#rankings").css('border','1px solid black');
 		$("#credit > a").css('color','#111');
 		$(".logoimg").attr("src","img/ODB_black.png");
 		$("#githubimg").attr("src","img/github-128_black.png");
@@ -71,6 +102,60 @@ var g = svg.selectAll("g");
 
 function redraw() {
     svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+}
+
+function switchView(id) {
+	id = id.replace("View","");
+	if (id == "table") {
+		rop = $("#rankings").css('opacity',1);
+		rop = $("#rankings").css('z-index',30);
+		$("#tableLab").css("background","#eee");
+		$("#tableLab").css("color","#404040");
+		$("#mapLab").css("background","#404040");
+		$("#mapLab").css("color","#eee");
+	} else {
+		rop = $("#rankings").css('opacity',0);
+		rop = $("#rankings").css('z-index',-100);
+		$("#mapLab").css("background","#eee");
+		$("#mapLab").css("color","#404040");
+		$("#tableLab").css("background","#404040");
+		$("#tableLab").css("color","#eee");
+	}
+}
+
+function updateClusters(id,checked) {
+	id = id.replace("clusters_","");
+	id = id.replace(/_/g," ");
+	if (id == "all" && checked) {
+		for (cluster in clusters) {
+			clusters[cluster] = true;
+			out_id = "clusters_" + cluster.replace(/ /g,"_");
+			$("#"+out_id).prop('checked',true);
+			
+		}
+	} else {
+		clusters[id] = checked;
+		if (!checked) {
+			$("#clusters_all").prop('checked',false);
+		}
+	}
+	all = true;
+	for (cluster in clusters) {
+		if(!clusters[cluster]) {
+			all = false;
+		}
+	}
+	if (all) {
+		$("#clusters_all").prop('checked',true);
+		$("#map_filter_state").html('Off');
+	} else {
+		$("#map_filter_state").html('On');
+	}
+	if (current) {
+		drawStats(current,true);
+	} else {
+		drawStats(null,true);
+	}
 }
 
 function updateScore(oldScore,newScore) {
@@ -101,6 +186,9 @@ queue()
     .await(ready);
 
 function getColor(d,i){
+	if (!clusters[d.cluster]) {
+		return d3.rgb(255,255,255);
+	}
 	var overlayHueMin = 238,
 	overlayHueMax = 240,
 	overlaySatMin = 1,
@@ -136,6 +224,7 @@ function ready(error, world, names, points, odbdata2013, datasetScores2013, odbd
   countries.forEach(function(d) {
     d.odbdata = {};
     d.datasets = {};
+    d.cluster = "";
     var tryit = names.filter(function(n) { return d.id == n.id; })[0];
     if (typeof tryit === "undefined"){
 //      console.log("Failed in match 1: " + d);
@@ -162,6 +251,7 @@ function ready(error, world, names, points, odbdata2013, datasetScores2013, odbd
 //	console.log("Failed in match 4: " + d.name);
     } else {
     	d.odbdata["2014"] = tryit2;
+	d.cluster = d.odbdata["2014"].Cluster;
     }
     var tryit3 = datasetScores2014.filter(function(n) { return d.ISO2 == n.ISO2; });
     if (typeof tryit3 === "undefined"){
@@ -339,7 +429,7 @@ function drawStats(d,changedYear) {
 			if (odbscorechange > 0) {
 				document.getElementById("odb-score-change").innerHTML = "+" + odbscorechange;
 				document.getElementById("odb-score-change").style.color = "green";
-				document.getElementById("odb-score-change").style.left = "160px";
+				document.getElementById("odb-score-change").style.left = "172px";
 				if (d.odbdata[year]["ODB-Score"] < 0) {
 					document.getElementById("odb-score-change").style.left = "166px";
 				}
@@ -349,7 +439,7 @@ function drawStats(d,changedYear) {
 				document.getElementById("odb-score-change").style.color = "red";
 				document.getElementById("odb-score-change").style.left = "172px";
 				if (d.odbdata[year]["ODB-Score"] < 0) {
-					document.getElementById("odb-score-change").style.left = "178px";
+					document.getElementById("odb-score-change").style.left = "172px";
 				}
 			}
 			$("#odb-score-change").fadeIn();
