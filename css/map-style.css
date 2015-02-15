@@ -169,15 +169,15 @@ h2 {
 
 #logo {
 	position: absolute;
-	top: 478px;
+	top: 505px;
 	width: inherit;
 	text-align: center;
-	left: 10px;
+	left: 8px;
 }
 #credit {
 	font-size: 10px;
 	position: absolute;
-	top: 520px;
+	top: 550px;
 	left: 20px;
 }
 #credit a {

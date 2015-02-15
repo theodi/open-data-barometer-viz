@@ -109,7 +109,7 @@ function generate_headers(key) {
                 }
          });
          
-     new $.fn.dataTable.FixedHeader($(target).find("TABLE").DataTable(),{"offsetTop": 50})
+//     new $.fn.dataTable.FixedHeader($(target).find("TABLE").DataTable(),{"offsetTop": 50})
      
      $(".dataTables_filter").prepend(group_html)
          
