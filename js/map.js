@@ -12,7 +12,7 @@ var storyPanelHidden = true;
 var print = false;
 var clusters = {};
 clusters["One sided initiative"] = true;
-clusters["High capacity"] = false;
+clusters["High capacity"] = true;
 clusters["Capacity constrained"] = true;
 clusters["Emerging and advancing"] = true;
 
@@ -40,7 +40,7 @@ $.ajaxSetup ({
 odb_table();
 
 $(document).keypress(function(e) {
-	if (e.which == 109) {
+        if (e.which == 109) {
 		mop = $("#map").css('opacity');
 		if (mop > 0) {
 			mop = $("#map").css('opacity',0);
@@ -54,6 +54,14 @@ $(document).keypress(function(e) {
 			switchView("map");
 		} else {
 			switchView("table");
+		}
+	}
+	if (e.which == 102) {
+		fop = $("#clusters").css('opacity');
+		if (fop > 0) {
+			hideFilters();
+		} else {
+			showFilters();
 		}
 	}
 	if (e.which == 112 && print) {
@@ -139,6 +147,9 @@ function updateClusters(id,checked) {
 	}
 	if (all) {
 		$("#clusters_all").prop('checked',true);
+		$("#map_filter_state").html('Off');
+	} else {
+		$("#map_filter_state").html('On');
 	}
 	if (current) {
 		drawStats(current,true);
@@ -418,7 +429,7 @@ function drawStats(d,changedYear) {
 			if (odbscorechange > 0) {
 				document.getElementById("odb-score-change").innerHTML = "+" + odbscorechange;
 				document.getElementById("odb-score-change").style.color = "green";
-				document.getElementById("odb-score-change").style.left = "160px";
+				document.getElementById("odb-score-change").style.left = "172px";
 				if (d.odbdata[year]["ODB-Score"] < 0) {
 					document.getElementById("odb-score-change").style.left = "166px";
 				}
@@ -428,7 +439,7 @@ function drawStats(d,changedYear) {
 				document.getElementById("odb-score-change").style.color = "red";
 				document.getElementById("odb-score-change").style.left = "172px";
 				if (d.odbdata[year]["ODB-Score"] < 0) {
-					document.getElementById("odb-score-change").style.left = "178px";
+					document.getElementById("odb-score-change").style.left = "172px";
 				}
 			}
 			$("#odb-score-change").fadeIn();

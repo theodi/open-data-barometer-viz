@@ -166,7 +166,10 @@ h2 {
 #score {
   margin-bottom: 1em;
 }
-
+#scoreBlock {
+  position: relative;
+  bottom: 30px;
+}
 #logo {
 	position: absolute;
 	top: 505px;
@@ -464,4 +467,24 @@ h2 {
 .fixedHeader {
 	background: #404040;
 	opacity: 0;
+}
+#clusters {
+	position: absolute;
+	border: 2px solid white;
+	padding: 1em 0.5em;
+	line-height: 1.5em;
+	border-radius: 8px;
+	background: #404040;
+	z-index: 300;
+	left: 20px;
+	top: 130px;
+	opacity: 0;	
+	z-index: -30;
+}
+#map_filters {
+	position: relative;
+	bottom: 20px;
+}
+#map_filter_state {
+	font-weight: bold;
 }

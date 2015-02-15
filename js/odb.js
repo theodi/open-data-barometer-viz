@@ -95,7 +95,7 @@ function generate_headers(key) {
 			             group_id = group_text.replace(/ /g,"_");
 				     if (groupCol == 1) {
 	                                     $(rows).eq( i ).before(
-        	                                 '<tr class="group"><td colspan="'+(fields.length)+'"><a href="#" id="'+group_id+'" onclick="showMiniHelp(\''+group_id+'\')">'+group_text+'</a></td></tr>'
+        	                                 '<tr class="group"><td colspan="'+(fields.length)+'"><a href="#" id="'+group_id+'" onclick="showMiniHelp(\''+group_id+'\')">'+group_text+' <img id="ch" src="img/help_white.png" width="15px" alt="More info"/></a></td></tr>'
 	                                     );
 				     } else {
 	                                     $(rows).eq( i ).before(

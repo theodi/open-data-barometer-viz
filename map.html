@@ -12,14 +12,17 @@
 <body>
   <div id="container">
   <div id="warning">
-  </div>
- 
+  </div> 
   <div id="clusters">
-	<input type="checkbox" id="clusters_all" checked="true" onchange="updateClusters(this.id,this.checked);">All</input>
-	<input type="checkbox" id="clusters_High_capacity" checked="true" onchange="updateClusters(this.id,this.checked);">High capacity</input>
-	<input type="checkbox" id="clusters_Emerging_and_advancing" checked="true" onchange="updateClusters(this.id,this.checked);">Emerging and advancing</input>
-	<input type="checkbox" id="clusters_Capacity_constrained" checked="true" onchange="updateClusters(this.id,this.checked);">Capacity constrained</input>
-	<input type="checkbox" id="clusters_One_sided_initiative" checked="true" onchange="updateClusters(this.id,this.checked);">One sided initiative</input>
+	<div id="closeHelp" onClick="hideFilters()">
+		<img src="img/close_icon_white.png" width="20px"/>
+	</div>
+	<input type="checkbox" id="clusters_all" value="All" checked="true" onchange="updateClusters(this.id,this.checked);">All</input>
+<br/>
+	<input type="checkbox" id="clusters_High_capacity" checked="true" onchange="updateClusters(this.id,this.checked);">High capacity <img id="ch" src="img/help_white.png" width="15px" alt="More info" onclick="showMiniHelp('High_capacity');"/></input><br/>
+	<input type="checkbox" id="clusters_Emerging_and_advancing" checked="true" onchange="updateClusters(this.id,this.checked);">Emerging and advancing <img id="ch" src="img/help_white.png" width="15px" alt="More info" onclick="showMiniHelp('Emerging_and_advancing');"/></input><br/>
+	<input type="checkbox" id="clusters_Capacity_constrained" checked="true" onchange="updateClusters(this.id,this.checked);">Capacity constrained <img id="ch" src="img/help_white.png" width="15px" alt="More info" onclick="showMiniHelp('Capacity_constrained');"/></input><br/>
+	<input type="checkbox" id="clusters_One_sided_initiative" checked="true" onchange="updateClusters(this.id,this.checked);">One sided initiative <img id="ch" src="img/help_white.png" width="15px" alt="More info" onclick="showMiniHelp('One_sided_initiative');"/></input><br/>
   </div>
   <form style="position: absolute; right: 175px; top: 2px;">
   <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true" class="ui-controlgroup ui-controlgroup-horizontal ui-corner-all ui-mini"i style="margin: 0;">	<div class="ui-controlgroup-controls ">
@@ -48,11 +51,14 @@
         <h2 id="country">
 		Select a country
 	</h2>
+	<section id="scoreBlock">
         <span id="score">_</span><span id="outof">/86</span>
 	<span id="arrow"></span>
         <span id="movement"></span>
+	</section>
         <span id="odb-score-span">Score: <span id="odb-score">---</span></span>
         <span id="odb-score-change"></span>
+	<span id="map_filters"><a href="#" onClick="showFilters();" style="text-decoration: none;"><em style="text-decoration: underline;">F</em>ilters: <span id="map_filter_state">Off</span></a></span>
       </div>
       <div id="radar">
       </div>
