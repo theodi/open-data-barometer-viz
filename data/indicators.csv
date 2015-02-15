@@ -1,0 +1,112 @@
+component,code,short_name,full_name,Source,Provider
+government,ODB.2013.C.INIT,OGD Initiative,To what extent is there a well-resourced open government data initiative in this country?,ODB Expert Survey 2014,Web Foundation
+government,WEF.GITR.8.01,ICT Vision,Importance of ICT to government vision.,http://www.weforum.org/global-information-technology-report-2014-data-platform,The World Economic Forum
+government,UN.OSI,Online Services Index,Government online services index,2014 UN E-Government Development Survey,United Nations
+government,ODB.2013.C.CITY,City Open Data,To what extent are city or regional governments running their own open data initiatives?,ODB Expert Survey 2014,Web Foundation
+civil,ODB.2013.C.RTI,Right to Information,To what extent does the country have a functioning right-to-information law?,ODB Expert Survey 2014,Web Foundation
+civil,ODB.2013.C.DPL,Data Protection Law,To what extent is there a robust legal or regulatory framework for protection of personal data in this country?,ODB Expert Survey 2014,Web Foundation
+civil,FH,Freedom and Civil Liberties,Political Freedoms and Civil Liberties,Freeom House Freedom in the World Rankings,Freedom House
+civil,ODB.2013.C.CSOC,Civil Society Engagement,To what extent are civil society and information technology professionals engaging with the government regarding open data?,ODB Expert Survey 2014,Web Foundation
+entrepreneurs,ODB.2013.C.TRAIN,Open Data Training,To what extent is training available for individuals or businesses wishing to increase their skills or build businesses to use open data?,ODB Expert Survey 2014,Web Foundation
+entrepreneurs,ODB.2013.C.SUPIN,Support for Innovation,"To what extent is government directly supporting a culture of innovation with open data through competitions, grants or other support?",ODB Expert Survey 2014,Web Foundation
+entrepreneurs,WEF.GCI.9.02,Firm technology absorbtion,Firm-level technology absorption.,http://reports.weforum.org/global-competitiveness-report-2014-2015/,The World Economic Forum
+entrepreneurs,WB.NetUsers,Net Users,Internet users (per 100 people),http://data.worldbank.org/indicator/IT.NET.USER.P2,World Bank
+innovation,ODB.2013.D1,Map Data,Map Data,ODB Expert Survey 2014,Web Foundation
+innovation,ODB.2013.D9,Public transport timetables,Public transport timetables,ODB Expert Survey 2014,Web Foundation
+innovation,ODB.2013.D10,International trade data,International trade data,ODB Expert Survey 2014,Web Foundation
+innovation,ODB.2013.D13,Crime statistics,Crime statistics,ODB Expert Survey 2014,Web Foundation
+innovation,ODB.2013.D16,Public Contracts,Public Contracts,ODB Expert Survey 2014,Web Foundation
+social_policy,ODB.2013.D4,Detailed census data,Detailed census data,ODB Expert Survey 2014,Web Foundation
+social_policy,ODB.2013.D11,Health sector performance,Health sector performance,ODB Expert Survey 2014,Web Foundation
+social_policy,ODB.2013.D12,Primary or secondary education performance data,Primary or secondary education performance data,ODB Expert Survey 2014,Web Foundation
+social_policy,ODB.2013.D14,National environment statistics,National environment statistics,ODB Expert Survey 2014,Web Foundation
+social_policy,ODB.2013.D2,Land ownership data,Land ownership data,ODB Expert Survey 2014,Web Foundation
+accountability,ODB.2013.D5,Detailed government budget,Detailed government budget,ODB Expert Survey 2014,Web Foundation
+accountability,ODB.2013.D6,Detailed data on government spend,Detailed data on government spend,ODB Expert Survey 2014,Web Foundation
+accountability,ODB.2013.D7,Company register,Company register,ODB Expert Survey 2014,Web Foundation
+accountability,ODB.2013.D8,Legislation,Legislation,ODB Expert Survey 2014,Web Foundation
+accountability,ODB.2013.D15,National election results,National election results,ODB Expert Survey 2014,Web Foundation
+political,ODB.2013.I.GOV,Efficiency Impact,To what extent has open data had a noticeable impact on increasing government efficiency and effectiveness?,ODB Expert Survey 2014,Web Foundation
+political,ODB.2013.I.ACCOUNT,Accountability Impact,To what extent has open data had a noticeable impact on increasing transparency and accountability in the country?,ODB Expert Survey 2014,Web Foundation
+social,ODB.2013.I.ENV,Environmental Impact,To what extent has open data had a noticeable impact on environmental sustainability in the country?,ODB Expert Survey 2014,Web Foundation
+social,ODB.2013.I.INC,Inclusion Impact,To what extent has open data had a noticeable impact on increasing the inclusion of marginalised groups in policy making and accessing government services?,ODB Expert Survey 2014,Web Foundation
+economic,ODB.2013.I.ECON,Economic Impact,To what extent has open data had a noticeable positive impact on the economy?,ODB Expert Survey 2014,Web Foundation
+economic,ODB.2013.I.ENTR,Entrepreneurs Impact,To what extent are entrepreneurs successfully using open data to build new businesses in the country?,ODB Expert Survey 2014,Web Foundation
+metadata,Country,Country,,,
+metadata,Region,Region,,,
+calculated,Readiness,Readiness,,,
+calculated,Readiness-Scaled,Readiness (Scaled),,,
+calculated,Readiness_Government-Scaled,Government Readiness (Scaled),,,
+calculated,Readiness_Citizens-Scaled,Civil Society Readiness (Scaled),,,
+calculated,Readiness_Entrepreneurs-Scaled,Entrepreneurs Readiness (Scaled),,,
+calculated,Readiness_Entrepreneurs,Entrepreneurs Readiness,,,
+calculated,Datasets_Society,Social Policy Datasets,,,
+calculated,Datasets_Normalised,Datasets (Normalised),,,
+calculated,Implementation-Rank,Implementation Rank,,,
+calculated,Impact_Social,Social Impact,,,
+calculated,Impact_Economic-Scaled,Economic Impact (Scaled),,,
+calculated,Impact-Rank,Impact Rank,,,
+calculated,ODB-Rank,Barometer Rank,,,
+calculated,Change,Change,,,
+calculated,Cluster_label,Cluster,,,
+calculated,GDP.Per.Capita.Current.USD,GDP Per Capita,,,
+calculated,Readiness_Government,Government Readiness,,,
+calculated,Datasets_Innovation,Innovation Datasets,,,
+calculated,Datasets_Average,Datasets Average,,,
+calculated,Implementation-Scaled,Implementation (Scaled),,,
+calculated,Impact_Political-Scaled,Political Impact (Scaled),,,
+calculated,Impact_Economic,Economic Impact,,,
+calculated,Impact-Scaled,Impact (Scaled),,,
+calculated,ODB-Scaled,ODB Scaled,,,
+calculated,X2013.Scaled.Score,2013 ODB Score (Scaled),,,
+calculated,Cluster,Cluster,,,
+metadata,HDI.Rank,Human Development Index Rank,,,
+metadata,Income,Income Level,,,
+calculated,Readiness_Citizens,Civil Society Readiness,,,
+calculated,Readiness-Rank,Readiness Rank,,,
+calculated,Datasets_Accountability,Accountability Datasets,,,
+calculated,Implementation,Implementation,,,
+calculated,Impact_Political,Political Impact,,,
+calculated,Impact_Social-Scaled,Social Impact (Scaled),,,
+calculated,Impact,Impact,,,
+calculated,ODB,ODB Score,,,
+calculated,X2013.Rank,2013 ODB Rank,,,
+calculated,Year,Year,,,
+calculated,HDI,Human Development Index,,,
+calculated,2013-Rank,2013 Rank,,,
+calculated,2013-ODB-Scaled,2013 ODB,,,
+calculated,Rank Change,Rank Change,,,
+calculated,ODB Change,ODB Change,,,
+dataset_assessment,aExists,,Does the data exist?,,Web Foundation
+dataset_assessment,bAvailable,,Is it available online from government in any form?,,Web Foundation
+dataset_assessment,cMachineReadable,,Is the dataset provided in machine-readable formats?,,Web Foundation
+dataset_assessment,dBulk,,Is the machine-readable data available in bulk?,,Web Foundation
+dataset_assessment,eFree,,Is the dataset available free of charge?,,Web Foundation
+dataset_assessment,fLicense,,Is the data openly licensed?,,Web Foundation
+dataset_assessment,gUpdated,,Is the dataset up to date?,,Web Foundation
+dataset_assessment,hSustainable,,Is the publication of the dataset sustainable?,,Web Foundation
+dataset_assessment,iDiscoverable,,Was it easy to find information about this dataset?,,Web Foundation
+dataset_assessment,jLinked,,Are (linked) data URIs provided for key elements of the data?,,Web Foundation
+dataset_assessment,aAgencyResponsible,,Which agency or agencies are responsible for this data?,Dataset technical survey,Web Foundation
+dataset_assessment,aNotHeld,,Please explain why the government does not hold this data,Dataset technical survey,Web Foundation
+dataset_assessment,aThirdPartyMandate,,Does government mandate that third parties should share this data?,Dataset technical survey,Web Foundation
+dataset_assessment,aDetails,,Please provide any brief details regarding the data that exists for this country. This might include notes on any limitations of the data that does exist.,Dataset technical survey,Web Foundation
+dataset_assessment,bURL,,Please provide links to where the data can be found,Dataset technical survey,Web Foundation
+dataset_assessment,bThirdParty,,Is the data available as open data from a third party?,Dataset technical survey,Web Foundation
+dataset_assessment,cURL,,Please provide a URL to machine-readable version of the data,Dataset technical survey,Web Foundation
+dataset_assessment,cFormats,,Please provide a comman separated list of file formats it is available in.,Dataset technical survey,Web Foundation
+dataset_assessment,cNotAvailable,,Please provide brief notes on why machine readable data may not be available,Dataset technical survey,Web Foundation
+dataset_assessment,cAdditional,,lease provide any additional notes on the machine-readable data covered in your answer,Dataset technical survey,Web Foundation
+dataset_assessment,dURL,,Please provide bulk download URL,Dataset technical survey,Web Foundation
+dataset_assessment,dNotes,,Please provide any other notes about bulk download options for this data,Dataset technical survey,Web Foundation
+dataset_assessment,ePolicy,,"What, if any, charging policy exists for the dataset?",Dataset technical survey,Web Foundation
+dataset_assessment,eURL,,Please provide a link to any relevant charging information,Dataset technical survey,Web Foundation
+dataset_assessment,fLicense,,What license in the data under?,Dataset technical survey,Web Foundation
+dataset_assessment,fURL,,Please provide a link to licensing details,Dataset technical survey,Web Foundation
+dataset_assessment,gLastUpdated,,Date of last substantial update,Dataset technical survey,Web Foundation
+dataset_assessment,gChecked,,Date of checking for last update (i.e. Today's date),Dataset technical survey,Web Foundation
+dataset_assessment,gFrequency,,"How often does the underlying dataset change? Choose from Daily, Weekly, Monthly, Quarterly, Yearly, Bi-annually, 5-years, 10-years, Irregular or Unknown.",Dataset technical survey,Web Foundation
+dataset_assessment,hNotes,,Please provide brief notes to explain your judgement on sustainability,Dataset technical survey,Web Foundation
+dataset_assessment,iNotes,,Please provide brief notes regarding discoverability,Dataset technical survey,Web Foundation
+dataset_assessment,jDocumentation,,Please provide URLs to relevant documentation of linked data for this dataset,Dataset technical survey,Web Foundation
+dataset_assessment,jExample,,Please provide an example URI from this dataset,Dataset technical survey,Web Foundation

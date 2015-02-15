@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Open Data Barometer Analysis</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/map-style.css" />
+        <link rel="stylesheet" href="css/jquery.dataTables.min.css"/>
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+  	<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/freeuniversal" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <div id="container">
+  <div id="warning">
+  </div> 
+  <div id="clusters">
+	<div id="closeHelp" onClick="hideFilters()">
+		<img src="img/close_icon_white.png" width="20px"/>
+	</div>
+	<input type="checkbox" id="clusters_all" value="All" checked="true" onchange="updateClusters(this.id,this.checked);">All</input>
+<br/>
+	<input type="checkbox" id="clusters_High_capacity" checked="true" onchange="updateClusters(this.id,this.checked);">High capacity <img id="ch" src="img/help_white.png" width="15px" alt="More info" onclick="showMiniHelp('High_capacity');"/></input><br/>
+	<input type="checkbox" id="clusters_Emerging_and_advancing" checked="true" onchange="updateClusters(this.id,this.checked);">Emerging and advancing <img id="ch" src="img/help_white.png" width="15px" alt="More info" onclick="showMiniHelp('Emerging_and_advancing');"/></input><br/>
+	<input type="checkbox" id="clusters_Capacity_constrained" checked="true" onchange="updateClusters(this.id,this.checked);">Capacity constrained <img id="ch" src="img/help_white.png" width="15px" alt="More info" onclick="showMiniHelp('Capacity_constrained');"/></input><br/>
+	<input type="checkbox" id="clusters_One_sided_initiative" checked="true" onchange="updateClusters(this.id,this.checked);">One sided initiative <img id="ch" src="img/help_white.png" width="15px" alt="More info" onclick="showMiniHelp('One_sided_initiative');"/></input><br/>
+  </div>
+  <form style="position: absolute; right: 195px; top: 3px;">
+  <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true" class="ui-controlgroup ui-controlgroup-horizontal ui-corner-all ui-mini" style="margin: 0;">	<div class="ui-controlgroup-controls ">
+
+  <div class="ui-radio ui-mini"><label id="mapLab" for="mapView" class="ui-btn ui-corner-all ui-btn-inherit ui-first-child" style="background-color: #eee; color: black; padding: 0.6em 1em; border: 1px solid white;">Map View</label><input type="radio" name="radio-choice-h-6" id="mapView" value="MapView" checked="checked" onchange="switchView(this.id,this.checked);"></div>
+
+  <div class="ui-radio ui-mini"><label id="tableLab" for="tableView" class="ui-btn ui-corner-all ui-btn-inherit ui-last-child" style="background: #404040; color: #eee; padding: 0.6em 1em; border: 1px solid white;">Table View</label><input type="radio" name="radio-choice-h-6" id="tableView" value="TableView" onchange="switchView(this.id,this.checked);"></div>
+
+  </div></fieldset>
+  </form>
+  <select id="year" title="Select year" onchange="changeYear();">
+	<option id="2014" style='color: #9467bd;'>2014</option>
+	<option id="2013" style='color: #1f77b4;'>2013</option>
+  </select>
+  <div id="code" title="Get the code">
+  	<a href="https://github.com/theodi/open-data-barometer-viz/tree/gh-pages" target="_blank"><img id="githubimg" src="img/github-128_white.png" width="32px" alt="Get the code"></a>
+  </div>
+  <div id="help" onclick="showHelp()" title="Help">
+	<img id="helpimg" src="img/help_white.png" width="30px" alt="Help"/>
+  </div>
+    <div id="rankings">
+	fdsjfdshk
+    </div>
+    <div id="sidebar">
+      <div id="detail">
+        <h2 id="country">
+		Select a country
+	</h2>
+	<section id="scoreBlock">
+        <span id="score">_</span><span id="outof">/86</span>
+	<span id="arrow"></span>
+        <span id="movement"></span>
+	</section>
+        <span id="odb-score-span">Score: <span id="odb-score">---</span></span>
+        <span id="odb-score-change"></span>
+	<span id="map_filters"><a href="#" onClick="showFilters();" style="text-decoration: none;"><em style="text-decoration: underline;">F</em>ilters: <span id="map_filter_state">Off</span></a></span>
+      </div>
+      <div id="radar">
+      </div>
+    </div>
+  </div>
+  <div id="story_block">
+	<p id="storyPart1"></p><br/>
+	<p id="storyPart2"></p><br/>
+  </div>
+  <div id="map">
+  </div>
+  <div id="datasets-div">
+	<nav id="datasets-nav-vertical" onClick="showDatasetsHistory();"><span id="nav-inner-vertical">......</span></nav>
+	<div id="dataset-labels"></div>
+	<div id="datasets"><div id="datasetsinner"></div></div>
+  </div>
+  <div id="logo">
+	<a target="_blank" href="http://opendatabarometer.org"><img class="logoimg" src="img/ODB_white.png" alt="The Open Data Barometer"></img></a>
+  </div>
+  <div id="credit">
+	License: <a href="http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB" target="_blank" rel="license">CC-BY-SA</a> | Visualisation by <a target="_blank" href="http://theodi.org/team/david-tarrant">David Tarrant</a> | <a target="_blank" href="http://www.opendatabarometer.org">Full report</a> | <a target="_blank" href="http://barometer.opendataresearch.org/report/about/data.html">Get the data</a>
+  </div>
+  <div id="player">
+	<div id="player-up-down" onclick="toggleStoryBar();">
+		&uArr; Show story bar &uArr;
+	</div>
+	<nav id="player-div">
+		No stories available for selected year.		
+	</nav>
+  </div>
+  <div id="helpBox" style="z-index: 300;">
+	<div id="closeHelp" onClick="hideHelp()">
+		<img src="img/close_icon.png" width="30px"/>
+	</div>
+	<iframe id="frame1" src="about/index.html?hf=no" frameborder="0" scrolling="yes" width="100%" height="510px"></iframe>
+  </div>
+  <div id="miniHelp" style="z-index: 300;">
+	<div id="closeHelp" onClick="hideMiniHelp()">
+		<img src="img/close_icon.png" width="30px"/>
+	</div>
+	<iframe id="miniHelpFrame" src="about/oneSided.html?hf=no" frameborder="0" scrolling="yes" width="100%" height="300px"></iframe>
+  </div>
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/jquery.csv-0.71.min.js"></script>
+  <script src="js/jquery.csvToTable.js"></script>
+  <script src="js/jquery.databar.js"></script>
+  <script src="js/jquery.dataTables.min.js"></script>
+  <script src="js/dataTables.fixedHeader.js"></script>
+  <script src="js/d3.v3.min.js"></script>
+  <script src="js/queue.v1.min.js"></script>
+  <script src="js/topojson.js"></script>
+  <script src="js/radarChart.js"></script>
+  <script src="js/datasets.js"></script>
+  <script src="js/odb.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/help.js"></script>
+</body>
+</html>

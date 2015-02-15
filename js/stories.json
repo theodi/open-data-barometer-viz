@@ -1,0 +1,30 @@
+{
+    "2014": [
+        {
+            "country": "Burkina Faso",
+	    "headline": "Huge effort in Burkina!",
+            "part1": "Burkina Faso, one of the poorest countries receives funding and help from the ODI World Bank Project to kick start the Open Data effort in the country",
+            "part2": "In 2014, data.gov.bf is launched containing 64 datasets on health and education and the first demo app is built.",
+            "box": {
+                "x": "360px",
+                "y": "40px",
+                "w": "450px",
+		"h": "250px",
+                "f": "1.4em"
+            }
+        },
+        {
+            "country": "United Kingdom",
+            "headline": "UK drops 76 places!",
+            "part1": "The UK leads the way in 2013.",
+            "part2": "However in 2014, some datasets drop in support as the UK tries to find more value from Open Data.",
+            "box": {
+                "x": "360px",
+                "y": "140px",
+                "w": "450px",
+		"h": "250px",
+                "f": "1.4em"
+            }
+        }
+     ]
+}

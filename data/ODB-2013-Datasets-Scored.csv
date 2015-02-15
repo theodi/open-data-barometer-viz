@@ -1,0 +1,1079 @@
+Variable,Country,ISO2,Dataset,CalculatedScore,aExists,bAvailable,cMachineReadable,dBulk,eFree,fLicense,gUpdated,hSustainable,iDiscoverable,jLinked,isOpen
+ODB.2013.D1,Bangladesh,BD,D1 - Map,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Bangladesh,BD,D2 - Land,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Bangladesh,BD,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Bangladesh,BD,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Bangladesh,BD,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Bangladesh,BD,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Bangladesh,BD,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Bangladesh,BD,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Bangladesh,BD,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Bangladesh,BD,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Bangladesh,BD,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Bangladesh,BD,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Bangladesh,BD,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Bangladesh,BD,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,China,CN,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,China,CN,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,China,CN,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,China,CN,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,China,CN,D6 - Spend,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,China,CN,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,China,CN,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,China,CN,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,China,CN,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,China,CN,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,China,CN,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,China,CN,D13 - Crime,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,China,CN,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,China,CN,D15 - Elections,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,India,IN,D1 - Map,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,India,IN,D2 - Land,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,India,IN,D4 - Census,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D5,India,IN,D5 - Budget,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D6,India,IN,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,India,IN,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,India,IN,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,India,IN,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,India,IN,D10 - Trade,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D11,India,IN,D11 - Health,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D12,India,IN,D12 - Education,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D13,India,IN,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,India,IN,D14 - Environment,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D15,India,IN,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Indonesia,ID,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Indonesia,ID,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Indonesia,ID,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,Indonesia,ID,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Indonesia,ID,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Indonesia,ID,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Indonesia,ID,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Indonesia,ID,D9 - Transport,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Indonesia,ID,D10 - Trade,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Indonesia,ID,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Indonesia,ID,D12 - Education,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D13,Indonesia,ID,D13 - Crime,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D14,Indonesia,ID,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Indonesia,ID,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Israel,IL,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Israel,IL,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Israel,IL,D4 - Census,55,5,10,15,0,15,0,0,5,5,0,0
+ODB.2013.D5,Israel,IL,D5 - Budget,80,5,10,15,15,15,0,10,5,5,0,0
+ODB.2013.D6,Israel,IL,D6 - Spend,75,5,10,15,15,15,0,10,5,0,0,0
+ODB.2013.D7,Israel,IL,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Israel,IL,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Israel,IL,D9 - Transport,80,5,10,15,15,15,0,10,5,5,0,0
+ODB.2013.D10,Israel,IL,D10 - Trade,75,5,10,15,15,15,0,10,5,0,0,0
+ODB.2013.D11,Israel,IL,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Israel,IL,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Israel,IL,D13 - Crime,45,5,10,15,0,15,0,0,0,0,0,0
+ODB.2013.D14,Israel,IL,D14 - Environment,60,5,10,15,0,15,0,10,5,0,0,0
+ODB.2013.D15,Israel,IL,D15 - Elections,80,5,10,15,15,15,0,10,5,5,0,0
+ODB.2013.D1,Jamaica,JM,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Jamaica,JM,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Jamaica,JM,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Jamaica,JM,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Jamaica,JM,D6 - Spend,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Jamaica,JM,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Jamaica,JM,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Jamaica,JM,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Jamaica,JM,D10 - Trade,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Jamaica,JM,D11 - Health,75,5,10,15,15,15,0,10,5,0,0,0
+ODB.2013.D12,Jamaica,JM,D12 - Education,75,5,10,15,15,15,0,10,5,0,0,0
+ODB.2013.D13,Jamaica,JM,D13 - Crime,75,5,10,15,15,15,0,10,5,0,0,0
+ODB.2013.D14,Jamaica,JM,D14 - Environment,45,5,10,15,0,15,0,0,0,0,0,0
+ODB.2013.D15,Jamaica,JM,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Japan,JP,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Japan,JP,D2 - Land,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Japan,JP,D4 - Census,80,5,10,15,15,15,0,10,5,5,0,0
+ODB.2013.D5,Japan,JP,D5 - Budget,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D6,Japan,JP,D6 - Spend,45,5,10,15,0,15,0,0,0,0,0,0
+ODB.2013.D7,Japan,JP,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Japan,JP,D8 - Legislation,80,5,10,15,15,15,0,10,5,5,0,0
+ODB.2013.D9,Japan,JP,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Japan,JP,D10 - Trade,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D11,Japan,JP,D11 - Health,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D12,Japan,JP,D12 - Education,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D13,Japan,JP,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Japan,JP,D14 - Environment,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D15,Japan,JP,D15 - Elections,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D1,"Korea, Republic of",KR,D1 - Map,65,5,10,15,15,0,0,10,5,5,0,0
+ODB.2013.D2,"Korea, Republic of",KR,D2 - Land,55,5,10,15,0,15,0,0,5,5,0,0
+ODB.2013.D4,"Korea, Republic of",KR,D4 - Census,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D5,"Korea, Republic of",KR,D5 - Budget,50,5,10,15,0,0,0,10,5,5,0,0
+ODB.2013.D6,"Korea, Republic of",KR,D6 - Spend,50,5,10,15,0,0,0,10,5,5,0,0
+ODB.2013.D7,"Korea, Republic of",KR,D7 - Company,65,5,10,15,15,0,0,10,5,5,0,0
+ODB.2013.D8,"Korea, Republic of",KR,D8 - Legislation,65,5,10,15,15,0,0,10,5,5,0,0
+ODB.2013.D9,"Korea, Republic of",KR,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,"Korea, Republic of",KR,D10 - Trade,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D11,"Korea, Republic of",KR,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,"Korea, Republic of",KR,D12 - Education,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D13,"Korea, Republic of",KR,D13 - Crime,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D14,"Korea, Republic of",KR,D14 - Environment,50,5,10,15,0,0,0,10,5,5,0,0
+ODB.2013.D15,"Korea, Republic of",KR,D15 - Elections,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D1,Nepal,NP,D1 - Map,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Nepal,NP,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Nepal,NP,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Nepal,NP,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Nepal,NP,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Nepal,NP,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Nepal,NP,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Nepal,NP,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Nepal,NP,D10 - Trade,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D11,Nepal,NP,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Nepal,NP,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Nepal,NP,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Nepal,NP,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Nepal,NP,D15 - Elections,80,5,10,15,15,15,0,10,5,5,0,0
+ODB.2013.D1,Norway,NO,D1 - Map,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D2,Norway,NO,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Norway,NO,D4 - Census,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D5,Norway,NO,D5 - Budget,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D6,Norway,NO,D6 - Spend,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Norway,NO,D7 - Company,100,5,10,15,15,15,15,10,5,5,5,1
+ODB.2013.D8,Norway,NO,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Norway,NO,D9 - Transport,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D10,Norway,NO,D10 - Trade,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D11,Norway,NO,D11 - Health,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D12,Norway,NO,D12 - Education,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D13,Norway,NO,D13 - Crime,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D14,Norway,NO,D14 - Environment,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D15,Norway,NO,D15 - Elections,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D1,Pakistan,PK,D1 - Map,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Pakistan,PK,D2 - Land,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Pakistan,PK,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Pakistan,PK,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Pakistan,PK,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Pakistan,PK,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Pakistan,PK,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Pakistan,PK,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Pakistan,PK,D10 - Trade,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D11,Pakistan,PK,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Pakistan,PK,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Pakistan,PK,D13 - Crime,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Pakistan,PK,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Pakistan,PK,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Philippines,PH,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Philippines,PH,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Philippines,PH,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Philippines,PH,D5 - Budget,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D6,Philippines,PH,D6 - Spend,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D7,Philippines,PH,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Philippines,PH,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Philippines,PH,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Philippines,PH,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Philippines,PH,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Philippines,PH,D12 - Education,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D13,Philippines,PH,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Philippines,PH,D14 - Environment,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Philippines,PH,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Russian Federation,RU,D1 - Map,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Russian Federation,RU,D2 - Land,45,5,10,15,0,0,0,10,0,5,0,0
+ODB.2013.D4,Russian Federation,RU,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,Russian Federation,RU,D5 - Budget,65,5,10,15,15,15,0,0,0,5,0,0
+ODB.2013.D6,Russian Federation,RU,D6 - Spend,75,5,10,15,15,15,0,10,5,0,0,0
+ODB.2013.D7,Russian Federation,RU,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Russian Federation,RU,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Russian Federation,RU,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Russian Federation,RU,D10 - Trade,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D11,Russian Federation,RU,D11 - Health,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D12,Russian Federation,RU,D12 - Education,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D13,Russian Federation,RU,D13 - Crime,65,5,10,15,15,15,0,0,0,5,0,0
+ODB.2013.D14,Russian Federation,RU,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Russian Federation,RU,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Singapore,SG,D1 - Map,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D2,Singapore,SG,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Singapore,SG,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,Singapore,SG,D5 - Budget,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D6,Singapore,SG,D6 - Spend,55,5,10,15,0,15,0,10,0,0,0,0
+ODB.2013.D7,Singapore,SG,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Singapore,SG,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Singapore,SG,D9 - Transport,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Singapore,SG,D10 - Trade,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D11,Singapore,SG,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Singapore,SG,D12 - Education,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D13,Singapore,SG,D13 - Crime,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Singapore,SG,D14 - Environment,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D15,Singapore,SG,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Sweden,SE,D1 - Map,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D2,Sweden,SE,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Sweden,SE,D4 - Census,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D5,Sweden,SE,D5 - Budget,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D6,Sweden,SE,D6 - Spend,90,5,10,15,15,15,15,10,5,0,0,1
+ODB.2013.D7,Sweden,SE,D7 - Company,65,5,10,15,15,0,0,10,5,5,0,0
+ODB.2013.D8,Sweden,SE,D8 - Legislation,100,5,10,15,15,15,15,10,5,5,5,1
+ODB.2013.D9,Sweden,SE,D9 - Transport,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D10,Sweden,SE,D10 - Trade,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D11,Sweden,SE,D11 - Health,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D12,Sweden,SE,D12 - Education,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D13,Sweden,SE,D13 - Crime,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D14,Sweden,SE,D14 - Environment,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D15,Sweden,SE,D15 - Elections,80,5,10,15,15,15,0,10,5,5,0,0
+ODB.2013.D1,Thailand,TH,D1 - Map,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Thailand,TH,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Thailand,TH,D4 - Census,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D5,Thailand,TH,D5 - Budget,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D6,Thailand,TH,D6 - Spend,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D7,Thailand,TH,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Thailand,TH,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Thailand,TH,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Thailand,TH,D10 - Trade,80,5,10,15,15,15,0,10,5,5,0,0
+ODB.2013.D11,Thailand,TH,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Thailand,TH,D12 - Education,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D13,Thailand,TH,D13 - Crime,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D14,Thailand,TH,D14 - Environment,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D15,Thailand,TH,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Argentina,AR,D1 - Map,45,5,10,15,0,15,0,0,0,0,0,0
+ODB.2013.D2,Argentina,AR,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Argentina,AR,D4 - Census,75,5,10,15,0,15,15,10,0,5,0,0
+ODB.2013.D5,Argentina,AR,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Argentina,AR,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Argentina,AR,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Argentina,AR,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Argentina,AR,D9 - Transport,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Argentina,AR,D10 - Trade,70,5,10,15,15,15,0,10,0,0,0,0
+ODB.2013.D11,Argentina,AR,D11 - Health,45,5,10,15,0,15,0,0,0,0,0,0
+ODB.2013.D12,Argentina,AR,D12 - Education,65,5,10,15,0,15,15,0,0,5,0,0
+ODB.2013.D13,Argentina,AR,D13 - Crime,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Argentina,AR,D14 - Environment,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D15,Argentina,AR,D15 - Elections,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D1,Austria,AT,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Austria,AT,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Austria,AT,D4 - Census,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D5,Austria,AT,D5 - Budget,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D6,Austria,AT,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Austria,AT,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Austria,AT,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Austria,AT,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Austria,AT,D10 - Trade,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D11,Austria,AT,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Austria,AT,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Austria,AT,D13 - Crime,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D14,Austria,AT,D14 - Environment,75,5,10,15,0,15,15,10,0,5,0,0
+ODB.2013.D15,Austria,AT,D15 - Elections,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D1,Benin,BJ,D1 - Map,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Benin,BJ,D2 - Land,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Benin,BJ,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Benin,BJ,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Benin,BJ,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Benin,BJ,D7 - Company,65,5,10,15,15,15,0,0,0,5,0,0
+ODB.2013.D8,Benin,BJ,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Benin,BJ,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Benin,BJ,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Benin,BJ,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Benin,BJ,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Benin,BJ,D13 - Crime,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Benin,BJ,D14 - Environment,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Benin,BJ,D15 - Elections,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Brazil,BR,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Brazil,BR,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Brazil,BR,D4 - Census,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D5,Brazil,BR,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Brazil,BR,D6 - Spend,80,5,10,15,15,15,0,10,5,5,0,0
+ODB.2013.D7,Brazil,BR,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Brazil,BR,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Brazil,BR,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Brazil,BR,D10 - Trade,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D11,Brazil,BR,D11 - Health,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Brazil,BR,D12 - Education,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D13,Brazil,BR,D13 - Crime,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Brazil,BR,D14 - Environment,60,5,10,15,0,15,15,0,0,0,0,0
+ODB.2013.D15,Brazil,BR,D15 - Elections,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D1,Chile,CL,D1 - Map,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D2,Chile,CL,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Chile,CL,D4 - Census,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Chile,CL,D5 - Budget,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D6,Chile,CL,D6 - Spend,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D7,Chile,CL,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Chile,CL,D8 - Legislation,80,5,10,15,15,15,0,10,0,5,5,0
+ODB.2013.D9,Chile,CL,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Chile,CL,D10 - Trade,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D11,Chile,CL,D11 - Health,45,5,10,15,0,15,0,0,0,0,0,0
+ODB.2013.D12,Chile,CL,D12 - Education,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D13,Chile,CL,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Chile,CL,D14 - Environment,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Chile,CL,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Colombia,CO,D1 - Map,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D2,Colombia,CO,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Colombia,CO,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Colombia,CO,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Colombia,CO,D6 - Spend,50,5,10,15,15,0,0,0,0,5,0,0
+ODB.2013.D7,Colombia,CO,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Colombia,CO,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Colombia,CO,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Colombia,CO,D10 - Trade,55,5,10,15,0,15,0,10,0,0,0,0
+ODB.2013.D11,Colombia,CO,D11 - Health,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D12,Colombia,CO,D12 - Education,45,5,10,15,0,15,0,0,0,0,0,0
+ODB.2013.D13,Colombia,CO,D13 - Crime,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Colombia,CO,D14 - Environment,45,5,10,15,0,15,0,0,0,0,0,0
+ODB.2013.D15,Colombia,CO,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Costa Rica,CR,D1 - Map,55,5,10,15,0,15,0,10,0,0,0,0
+ODB.2013.D2,Costa Rica,CR,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Costa Rica,CR,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,Costa Rica,CR,D5 - Budget,55,5,10,15,0,15,0,10,0,0,0,0
+ODB.2013.D6,Costa Rica,CR,D6 - Spend,55,5,10,15,0,15,0,10,0,0,0,0
+ODB.2013.D7,Costa Rica,CR,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Costa Rica,CR,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Costa Rica,CR,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Costa Rica,CR,D10 - Trade,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D11,Costa Rica,CR,D11 - Health,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D12,Costa Rica,CR,D12 - Education,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D13,Costa Rica,CR,D13 - Crime,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Costa Rica,CR,D14 - Environment,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Costa Rica,CR,D15 - Elections,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D1,Ecuador,EC,D1 - Map,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D2,Ecuador,EC,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Ecuador,EC,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,Ecuador,EC,D5 - Budget,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D6,Ecuador,EC,D6 - Spend,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Ecuador,EC,D7 - Company,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D8,Ecuador,EC,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Ecuador,EC,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Ecuador,EC,D10 - Trade,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Ecuador,EC,D11 - Health,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Ecuador,EC,D12 - Education,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Ecuador,EC,D13 - Crime,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Ecuador,EC,D14 - Environment,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D15,Ecuador,EC,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Ethiopia,ET,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Ethiopia,ET,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Ethiopia,ET,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Ethiopia,ET,D5 - Budget,55,5,10,15,0,15,0,10,0,0,0,0
+ODB.2013.D6,Ethiopia,ET,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Ethiopia,ET,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Ethiopia,ET,D8 - Legislation,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Ethiopia,ET,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Ethiopia,ET,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Ethiopia,ET,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Ethiopia,ET,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Ethiopia,ET,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Ethiopia,ET,D14 - Environment,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Ethiopia,ET,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Greece,GR,D1 - Map,60,5,10,15,0,15,15,0,0,0,0,0
+ODB.2013.D2,Greece,GR,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Greece,GR,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,Greece,GR,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Greece,GR,D6 - Spend,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D7,Greece,GR,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Greece,GR,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Greece,GR,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Greece,GR,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Greece,GR,D11 - Health,45,5,10,15,0,15,0,0,0,0,0,0
+ODB.2013.D12,Greece,GR,D12 - Education,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Greece,GR,D13 - Crime,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D14,Greece,GR,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Greece,GR,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Italy,IT,D1 - Map,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D2,Italy,IT,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Italy,IT,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,Italy,IT,D5 - Budget,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D6,Italy,IT,D6 - Spend,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D7,Italy,IT,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Italy,IT,D8 - Legislation,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D9,Italy,IT,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Italy,IT,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Italy,IT,D11 - Health,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Italy,IT,D12 - Education,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D13,Italy,IT,D13 - Crime,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D14,Italy,IT,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Italy,IT,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Kenya,KE,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Kenya,KE,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Kenya,KE,D4 - Census,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D5,Kenya,KE,D5 - Budget,85,5,10,15,15,15,15,0,5,5,0,1
+ODB.2013.D6,Kenya,KE,D6 - Spend,85,5,10,15,15,15,15,0,5,5,0,1
+ODB.2013.D7,Kenya,KE,D7 - Company,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Kenya,KE,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Kenya,KE,D9 - Transport,85,5,10,15,15,15,15,0,5,5,0,1
+ODB.2013.D10,Kenya,KE,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Kenya,KE,D11 - Health,70,5,10,15,0,15,15,0,5,5,0,0
+ODB.2013.D12,Kenya,KE,D12 - Education,70,5,10,15,0,15,15,0,5,5,0,0
+ODB.2013.D13,Kenya,KE,D13 - Crime,85,5,10,15,15,15,15,0,5,5,0,1
+ODB.2013.D14,Kenya,KE,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Kenya,KE,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Mexico,MX,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Mexico,MX,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Mexico,MX,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,Mexico,MX,D5 - Budget,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D6,Mexico,MX,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Mexico,MX,D7 - Company,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D8,Mexico,MX,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Mexico,MX,D9 - Transport,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D10,Mexico,MX,D10 - Trade,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D11,Mexico,MX,D11 - Health,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D12,Mexico,MX,D12 - Education,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D13,Mexico,MX,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Mexico,MX,D14 - Environment,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D15,Mexico,MX,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Peru,PE,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Peru,PE,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Peru,PE,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,Peru,PE,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Peru,PE,D6 - Spend,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D7,Peru,PE,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Peru,PE,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Peru,PE,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Peru,PE,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Peru,PE,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Peru,PE,D12 - Education,55,5,10,15,0,15,0,10,0,0,0,0
+ODB.2013.D13,Peru,PE,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Peru,PE,D14 - Environment,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D15,Peru,PE,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Portugal,PT,D1 - Map,70,5,10,15,15,15,0,10,0,0,0,0
+ODB.2013.D2,Portugal,PT,D2 - Land,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Portugal,PT,D4 - Census,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D5,Portugal,PT,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Portugal,PT,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Portugal,PT,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Portugal,PT,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Portugal,PT,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Portugal,PT,D10 - Trade,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D11,Portugal,PT,D11 - Health,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Portugal,PT,D12 - Education,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D13,Portugal,PT,D13 - Crime,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D14,Portugal,PT,D14 - Environment,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D15,Portugal,PT,D15 - Elections,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D1,South Africa,ZA,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,South Africa,ZA,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,South Africa,ZA,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,South Africa,ZA,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,South Africa,ZA,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,South Africa,ZA,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,South Africa,ZA,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,South Africa,ZA,D9 - Transport,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D10,South Africa,ZA,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,South Africa,ZA,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,South Africa,ZA,D12 - Education,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,South Africa,ZA,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,South Africa,ZA,D14 - Environment,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,South Africa,ZA,D15 - Elections,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D1,Spain,ES,D1 - Map,45,5,10,15,0,0,0,10,0,5,0,0
+ODB.2013.D2,Spain,ES,D2 - Land,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D4,Spain,ES,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,Spain,ES,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Spain,ES,D6 - Spend,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D7,Spain,ES,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Spain,ES,D8 - Legislation,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D9,Spain,ES,D9 - Transport,55,5,10,15,0,15,0,10,0,0,0,0
+ODB.2013.D10,Spain,ES,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Spain,ES,D11 - Health,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D12,Spain,ES,D12 - Education,70,5,10,15,15,15,0,10,0,0,0,0
+ODB.2013.D13,Spain,ES,D13 - Crime,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D14,Spain,ES,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Spain,ES,D15 - Elections,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D1,Uganda,UG,D1 - Map,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Uganda,UG,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Uganda,UG,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Uganda,UG,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Uganda,UG,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Uganda,UG,D7 - Company,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Uganda,UG,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Uganda,UG,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Uganda,UG,D10 - Trade,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D11,Uganda,UG,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Uganda,UG,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Uganda,UG,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Uganda,UG,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Uganda,UG,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Uruguay,UY,D1 - Map,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D2,Uruguay,UY,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Uruguay,UY,D4 - Census,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D5,Uruguay,UY,D5 - Budget,70,5,10,15,15,15,0,10,0,0,0,0
+ODB.2013.D6,Uruguay,UY,D6 - Spend,70,5,10,15,15,15,0,10,0,0,0,0
+ODB.2013.D7,Uruguay,UY,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Uruguay,UY,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Uruguay,UY,D9 - Transport,60,5,10,15,15,0,0,10,0,5,0,0
+ODB.2013.D10,Uruguay,UY,D10 - Trade,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D11,Uruguay,UY,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Uruguay,UY,D12 - Education,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Uruguay,UY,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Uruguay,UY,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Uruguay,UY,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Venezuela,VE,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Venezuela,VE,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Venezuela,VE,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,Venezuela,VE,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Venezuela,VE,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Venezuela,VE,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Venezuela,VE,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Venezuela,VE,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Venezuela,VE,D10 - Trade,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D11,Venezuela,VE,D11 - Health,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Venezuela,VE,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Venezuela,VE,D13 - Crime,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Venezuela,VE,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Venezuela,VE,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Czech Republic,CZ,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Czech Republic,CZ,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Czech Republic,CZ,D4 - Census,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D5,Czech Republic,CZ,D5 - Budget,50,5,10,15,0,15,0,0,5,0,0,0
+ODB.2013.D6,Czech Republic,CZ,D6 - Spend,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Czech Republic,CZ,D7 - Company,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D8,Czech Republic,CZ,D8 - Legislation,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Czech Republic,CZ,D9 - Transport,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Czech Republic,CZ,D10 - Trade,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D11,Czech Republic,CZ,D11 - Health,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D12,Czech Republic,CZ,D12 - Education,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D13,Czech Republic,CZ,D13 - Crime,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D14,Czech Republic,CZ,D14 - Environment,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D15,Czech Republic,CZ,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Finland,FI,D1 - Map,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D2,Finland,FI,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Finland,FI,D4 - Census,50,5,10,15,0,0,0,10,5,5,0,0
+ODB.2013.D5,Finland,FI,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Finland,FI,D6 - Spend,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Finland,FI,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Finland,FI,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Finland,FI,D9 - Transport,80,5,10,15,15,15,0,10,5,5,0,0
+ODB.2013.D10,Finland,FI,D10 - Trade,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D11,Finland,FI,D11 - Health,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D12,Finland,FI,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Finland,FI,D13 - Crime,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D14,Finland,FI,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Finland,FI,D15 - Elections,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D1,Ghana,GH,D1 - Map,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Ghana,GH,D2 - Land,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Ghana,GH,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,Ghana,GH,D5 - Budget,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D6,Ghana,GH,D6 - Spend,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Ghana,GH,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Ghana,GH,D8 - Legislation,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Ghana,GH,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Ghana,GH,D10 - Trade,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Ghana,GH,D11 - Health,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D12,Ghana,GH,D12 - Education,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D13,Ghana,GH,D13 - Crime,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D14,Ghana,GH,D14 - Environment,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Ghana,GH,D15 - Elections,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D1,Mauritius,MU,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Mauritius,MU,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Mauritius,MU,D4 - Census,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Mauritius,MU,D5 - Budget,55,5,10,15,0,15,0,10,0,0,0,0
+ODB.2013.D6,Mauritius,MU,D6 - Spend,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Mauritius,MU,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Mauritius,MU,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Mauritius,MU,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Mauritius,MU,D10 - Trade,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D11,Mauritius,MU,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Mauritius,MU,D12 - Education,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D13,Mauritius,MU,D13 - Crime,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D14,Mauritius,MU,D14 - Environment,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D15,Mauritius,MU,D15 - Elections,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D1,Zambia,ZM,D1 - Map,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Zambia,ZM,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Zambia,ZM,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Zambia,ZM,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Zambia,ZM,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Zambia,ZM,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Zambia,ZM,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Zambia,ZM,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Zambia,ZM,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Zambia,ZM,D11 - Health,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Zambia,ZM,D12 - Education,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Zambia,ZM,D13 - Crime,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Zambia,ZM,D14 - Environment,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Zambia,ZM,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Zimbabwe,ZW,D1 - Map,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Zimbabwe,ZW,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Zimbabwe,ZW,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Zimbabwe,ZW,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Zimbabwe,ZW,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Zimbabwe,ZW,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Zimbabwe,ZW,D8 - Legislation,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Zimbabwe,ZW,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Zimbabwe,ZW,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Zimbabwe,ZW,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Zimbabwe,ZW,D12 - Education,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Zimbabwe,ZW,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Zimbabwe,ZW,D14 - Environment,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Zimbabwe,ZW,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Cameroon,CM,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Cameroon,CM,D2 - Land,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Cameroon,CM,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Cameroon,CM,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Cameroon,CM,D6 - Spend,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Cameroon,CM,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Cameroon,CM,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Cameroon,CM,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Cameroon,CM,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Cameroon,CM,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Cameroon,CM,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Cameroon,CM,D13 - Crime,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Cameroon,CM,D14 - Environment,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Cameroon,CM,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,France,FR,D1 - Map,75,5,10,15,0,15,15,10,0,5,0,0
+ODB.2013.D2,France,FR,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,France,FR,D4 - Census,80,5,10,15,0,15,15,10,5,0,5,0
+ODB.2013.D5,France,FR,D5 - Budget,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D6,France,FR,D6 - Spend,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,France,FR,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,France,FR,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,France,FR,D9 - Transport,90,5,10,15,15,15,15,10,0,5,0,1
+ODB.2013.D10,France,FR,D10 - Trade,90,5,10,15,15,15,15,10,0,5,0,1
+ODB.2013.D11,France,FR,D11 - Health,80,5,10,15,15,15,15,0,0,5,0,1
+ODB.2013.D12,France,FR,D12 - Education,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D13,France,FR,D13 - Crime,90,5,10,15,15,15,15,10,0,5,0,1
+ODB.2013.D14,France,FR,D14 - Environment,60,5,10,15,0,15,15,0,0,0,0,0
+ODB.2013.D15,France,FR,D15 - Elections,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D1,Mali,ML,D1 - Map,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Mali,ML,D2 - Land,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Mali,ML,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Mali,ML,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Mali,ML,D6 - Spend,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Mali,ML,D7 - Company,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Mali,ML,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Mali,ML,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Mali,ML,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Mali,ML,D11 - Health,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Mali,ML,D12 - Education,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Mali,ML,D13 - Crime,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Mali,ML,D14 - Environment,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Mali,ML,D15 - Elections,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Namibia,NA,D1 - Map,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Namibia,NA,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Namibia,NA,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Namibia,NA,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Namibia,NA,D6 - Spend,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Namibia,NA,D7 - Company,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Namibia,NA,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Namibia,NA,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Namibia,NA,D10 - Trade,55,5,10,15,0,15,0,10,0,0,0,0
+ODB.2013.D11,Namibia,NA,D11 - Health,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Namibia,NA,D12 - Education,45,5,10,15,0,15,0,0,0,0,0,0
+ODB.2013.D13,Namibia,NA,D13 - Crime,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Namibia,NA,D14 - Environment,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Namibia,NA,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Netherlands,NL,D1 - Map,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D2,Netherlands,NL,D2 - Land,55,5,10,15,15,0,0,10,0,0,0,0
+ODB.2013.D4,Netherlands,NL,D4 - Census,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D5,Netherlands,NL,D5 - Budget,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D6,Netherlands,NL,D6 - Spend,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Netherlands,NL,D7 - Company,45,5,10,15,0,0,0,10,0,5,0,0
+ODB.2013.D8,Netherlands,NL,D8 - Legislation,100,5,10,15,15,15,15,10,5,5,5,1
+ODB.2013.D9,Netherlands,NL,D9 - Transport,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D10,Netherlands,NL,D10 - Trade,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D11,Netherlands,NL,D11 - Health,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Netherlands,NL,D12 - Education,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D13,Netherlands,NL,D13 - Crime,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D14,Netherlands,NL,D14 - Environment,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D15,Netherlands,NL,D15 - Elections,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D1,Senegal,SN,D1 - Map,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Senegal,SN,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Senegal,SN,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Senegal,SN,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Senegal,SN,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Senegal,SN,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Senegal,SN,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Senegal,SN,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Senegal,SN,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Senegal,SN,D11 - Health,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Senegal,SN,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Senegal,SN,D13 - Crime,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Senegal,SN,D14 - Environment,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Senegal,SN,D15 - Elections,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Botswana,BW,D1 - Map,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Botswana,BW,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Botswana,BW,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Botswana,BW,D5 - Budget,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D6,Botswana,BW,D6 - Spend,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D7,Botswana,BW,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Botswana,BW,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Botswana,BW,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Botswana,BW,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Botswana,BW,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Botswana,BW,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Botswana,BW,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Botswana,BW,D14 - Environment,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D15,Botswana,BW,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Burkina Faso,BF,D1 - Map,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Burkina Faso,BF,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Burkina Faso,BF,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Burkina Faso,BF,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Burkina Faso,BF,D6 - Spend,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Burkina Faso,BF,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Burkina Faso,BF,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Burkina Faso,BF,D9 - Transport,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Burkina Faso,BF,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Burkina Faso,BF,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Burkina Faso,BF,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Burkina Faso,BF,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Burkina Faso,BF,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Burkina Faso,BF,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Nigeria,NG,D1 - Map,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Nigeria,NG,D2 - Land,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Nigeria,NG,D4 - Census,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Nigeria,NG,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Nigeria,NG,D6 - Spend,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Nigeria,NG,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Nigeria,NG,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Nigeria,NG,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Nigeria,NG,D10 - Trade,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Nigeria,NG,D11 - Health,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Nigeria,NG,D12 - Education,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Nigeria,NG,D13 - Crime,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Nigeria,NG,D14 - Environment,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Nigeria,NG,D15 - Elections,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Tanzania,TZ,D1 - Map,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D2,Tanzania,TZ,D2 - Land,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Tanzania,TZ,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Tanzania,TZ,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Tanzania,TZ,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Tanzania,TZ,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Tanzania,TZ,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Tanzania,TZ,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Tanzania,TZ,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Tanzania,TZ,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Tanzania,TZ,D12 - Education,65,5,10,15,15,15,0,0,0,5,0,0
+ODB.2013.D13,Tanzania,TZ,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Tanzania,TZ,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Tanzania,TZ,D15 - Elections,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Bahrain,BH,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Bahrain,BH,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Bahrain,BH,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Bahrain,BH,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Bahrain,BH,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Bahrain,BH,D7 - Company,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D8,Bahrain,BH,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Bahrain,BH,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Bahrain,BH,D10 - Trade,45,5,10,15,0,15,0,0,0,0,0,0
+ODB.2013.D11,Bahrain,BH,D11 - Health,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D12,Bahrain,BH,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Bahrain,BH,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Bahrain,BH,D14 - Environment,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Bahrain,BH,D15 - Elections,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Belgium,BE,D1 - Map,70,5,10,15,15,15,0,0,5,5,0,0
+ODB.2013.D2,Belgium,BE,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Belgium,BE,D4 - Census,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D5,Belgium,BE,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Belgium,BE,D6 - Spend,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Belgium,BE,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Belgium,BE,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Belgium,BE,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Belgium,BE,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Belgium,BE,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Belgium,BE,D12 - Education,80,5,10,15,15,15,0,10,5,5,0,0
+ODB.2013.D13,Belgium,BE,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Belgium,BE,D14 - Environment,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D15,Belgium,BE,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Canada,CA,D1 - Map,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D2,Canada,CA,D2 - Land,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Canada,CA,D4 - Census,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D5,Canada,CA,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Canada,CA,D6 - Spend,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D7,Canada,CA,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Canada,CA,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Canada,CA,D9 - Transport,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D10,Canada,CA,D10 - Trade,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D11,Canada,CA,D11 - Health,45,5,10,15,0,0,0,10,0,5,0,0
+ODB.2013.D12,Canada,CA,D12 - Education,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D13,Canada,CA,D13 - Crime,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D14,Canada,CA,D14 - Environment,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D15,Canada,CA,D15 - Elections,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D1,Denmark,DK,D1 - Map,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D2,Denmark,DK,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Denmark,DK,D4 - Census,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D5,Denmark,DK,D5 - Budget,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D6,Denmark,DK,D6 - Spend,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D7,Denmark,DK,D7 - Company,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D8,Denmark,DK,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Denmark,DK,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Denmark,DK,D10 - Trade,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D11,Denmark,DK,D11 - Health,80,5,10,15,15,15,0,10,5,5,0,0
+ODB.2013.D12,Denmark,DK,D12 - Education,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D13,Denmark,DK,D13 - Crime,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D14,Denmark,DK,D14 - Environment,75,5,10,15,15,15,0,10,5,0,0,0
+ODB.2013.D15,Denmark,DK,D15 - Elections,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D1,Kazakhstan,KZ,D1 - Map,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Kazakhstan,KZ,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Kazakhstan,KZ,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Kazakhstan,KZ,D5 - Budget,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Kazakhstan,KZ,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Kazakhstan,KZ,D7 - Company,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D8,Kazakhstan,KZ,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Kazakhstan,KZ,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Kazakhstan,KZ,D10 - Trade,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D11,Kazakhstan,KZ,D11 - Health,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D12,Kazakhstan,KZ,D12 - Education,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D13,Kazakhstan,KZ,D13 - Crime,45,5,10,15,0,15,0,0,0,0,0,0
+ODB.2013.D14,Kazakhstan,KZ,D14 - Environment,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D15,Kazakhstan,KZ,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Estonia,EE,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Estonia,EE,D2 - Land,50,5,10,15,0,0,0,10,5,5,0,0
+ODB.2013.D4,Estonia,EE,D4 - Census,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D5,Estonia,EE,D5 - Budget,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D6,Estonia,EE,D6 - Spend,80,5,10,15,15,15,0,10,5,5,0,0
+ODB.2013.D7,Estonia,EE,D7 - Company,40,5,10,15,0,0,0,0,5,5,0,0
+ODB.2013.D8,Estonia,EE,D8 - Legislation,70,5,10,15,0,15,0,10,5,5,5,0
+ODB.2013.D9,Estonia,EE,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Estonia,EE,D10 - Trade,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D11,Estonia,EE,D11 - Health,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D12,Estonia,EE,D12 - Education,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D13,Estonia,EE,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Estonia,EE,D14 - Environment,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D15,Estonia,EE,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Germany,DE,D1 - Map,75,5,10,15,0,15,15,10,5,0,0,0
+ODB.2013.D2,Germany,DE,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Germany,DE,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,Germany,DE,D5 - Budget,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D6,Germany,DE,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Germany,DE,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Germany,DE,D8 - Legislation,85,5,10,15,0,15,15,10,5,5,5,0
+ODB.2013.D9,Germany,DE,D9 - Transport,90,5,10,15,15,15,15,10,5,0,0,1
+ODB.2013.D10,Germany,DE,D10 - Trade,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D11,Germany,DE,D11 - Health,65,5,10,15,0,15,15,0,5,0,0,0
+ODB.2013.D12,Germany,DE,D12 - Education,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D13,Germany,DE,D13 - Crime,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D14,Germany,DE,D14 - Environment,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D15,Germany,DE,D15 - Elections,75,5,10,15,0,15,15,10,5,0,0,0
+ODB.2013.D1,Hungary,HU,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Hungary,HU,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Hungary,HU,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,Hungary,HU,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Hungary,HU,D6 - Spend,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Hungary,HU,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Hungary,HU,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Hungary,HU,D9 - Transport,65,5,10,15,15,15,0,0,0,5,0,0
+ODB.2013.D10,Hungary,HU,D10 - Trade,55,5,10,15,0,15,0,10,0,0,0,0
+ODB.2013.D11,Hungary,HU,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Hungary,HU,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Hungary,HU,D13 - Crime,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D14,Hungary,HU,D14 - Environment,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D15,Hungary,HU,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Iceland,IS,D1 - Map,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D2,Iceland,IS,D2 - Land,55,5,10,15,15,0,0,10,0,0,0,0
+ODB.2013.D4,Iceland,IS,D4 - Census,80,5,10,15,15,15,0,10,5,5,0,0
+ODB.2013.D5,Iceland,IS,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Iceland,IS,D6 - Spend,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Iceland,IS,D7 - Company,60,5,10,15,15,0,0,10,5,0,0,0
+ODB.2013.D8,Iceland,IS,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Iceland,IS,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Iceland,IS,D10 - Trade,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D11,Iceland,IS,D11 - Health,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D12,Iceland,IS,D12 - Education,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D13,Iceland,IS,D13 - Crime,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D14,Iceland,IS,D14 - Environment,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D15,Iceland,IS,D15 - Elections,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D1,Ireland,IE,D1 - Map,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Ireland,IE,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Ireland,IE,D4 - Census,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D5,Ireland,IE,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Ireland,IE,D6 - Spend,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D7,Ireland,IE,D7 - Company,45,5,10,15,0,0,0,10,0,5,0,0
+ODB.2013.D8,Ireland,IE,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Ireland,IE,D9 - Transport,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Ireland,IE,D10 - Trade,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D11,Ireland,IE,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Ireland,IE,D12 - Education,55,5,10,15,0,15,0,10,0,0,0,0
+ODB.2013.D13,Ireland,IE,D13 - Crime,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D14,Ireland,IE,D14 - Environment,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D15,Ireland,IE,D15 - Elections,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Jordan,JO,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Jordan,JO,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Jordan,JO,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Jordan,JO,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Jordan,JO,D6 - Spend,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Jordan,JO,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Jordan,JO,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Jordan,JO,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Jordan,JO,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Jordan,JO,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Jordan,JO,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Jordan,JO,D13 - Crime,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Jordan,JO,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Jordan,JO,D15 - Elections,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Malawi,MW,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Malawi,MW,D2 - Land,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Malawi,MW,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,Malawi,MW,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Malawi,MW,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Malawi,MW,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Malawi,MW,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Malawi,MW,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Malawi,MW,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Malawi,MW,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Malawi,MW,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Malawi,MW,D13 - Crime,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Malawi,MW,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Malawi,MW,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Morocco,MA,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Morocco,MA,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Morocco,MA,D4 - Census,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D5,Morocco,MA,D5 - Budget,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D6,Morocco,MA,D6 - Spend,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D7,Morocco,MA,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Morocco,MA,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Morocco,MA,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Morocco,MA,D10 - Trade,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D11,Morocco,MA,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Morocco,MA,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Morocco,MA,D13 - Crime,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Morocco,MA,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Morocco,MA,D15 - Elections,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Qatar,QA,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Qatar,QA,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Qatar,QA,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,Qatar,QA,D5 - Budget,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Qatar,QA,D6 - Spend,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Qatar,QA,D7 - Company,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Qatar,QA,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Qatar,QA,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Qatar,QA,D10 - Trade,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D11,Qatar,QA,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Qatar,QA,D12 - Education,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Qatar,QA,D13 - Crime,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Qatar,QA,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Qatar,QA,D15 - Elections,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Rwanda,RW,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Rwanda,RW,D2 - Land,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Rwanda,RW,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,Rwanda,RW,D5 - Budget,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Rwanda,RW,D6 - Spend,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Rwanda,RW,D7 - Company,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Rwanda,RW,D8 - Legislation,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Rwanda,RW,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Rwanda,RW,D10 - Trade,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D11,Rwanda,RW,D11 - Health,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D12,Rwanda,RW,D12 - Education,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D13,Rwanda,RW,D13 - Crime,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Rwanda,RW,D14 - Environment,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D15,Rwanda,RW,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Saudi Arabia,SA,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Saudi Arabia,SA,D2 - Land,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Saudi Arabia,SA,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Saudi Arabia,SA,D5 - Budget,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Saudi Arabia,SA,D6 - Spend,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Saudi Arabia,SA,D7 - Company,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Saudi Arabia,SA,D8 - Legislation,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Saudi Arabia,SA,D9 - Transport,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Saudi Arabia,SA,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Saudi Arabia,SA,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Saudi Arabia,SA,D12 - Education,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Saudi Arabia,SA,D13 - Crime,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Saudi Arabia,SA,D14 - Environment,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Saudi Arabia,SA,D15 - Elections,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Switzerland,CH,D1 - Map,45,5,10,15,0,15,0,0,0,0,0,0
+ODB.2013.D2,Switzerland,CH,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Switzerland,CH,D4 - Census,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D5,Switzerland,CH,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Switzerland,CH,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Switzerland,CH,D7 - Company,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D8,Switzerland,CH,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Switzerland,CH,D9 - Transport,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Switzerland,CH,D10 - Trade,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D11,Switzerland,CH,D11 - Health,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Switzerland,CH,D12 - Education,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D13,Switzerland,CH,D13 - Crime,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D14,Switzerland,CH,D14 - Environment,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D15,Switzerland,CH,D15 - Elections,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D1,Tunisia,TN,D1 - Map,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Tunisia,TN,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Tunisia,TN,D4 - Census,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D5,Tunisia,TN,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Tunisia,TN,D6 - Spend,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Tunisia,TN,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Tunisia,TN,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Tunisia,TN,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Tunisia,TN,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Tunisia,TN,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Tunisia,TN,D12 - Education,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Tunisia,TN,D13 - Crime,30,5,10,15,0,0,0,0,0,0,0,0
+ODB.2013.D14,Tunisia,TN,D14 - Environment,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Tunisia,TN,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Turkey,TR,D1 - Map,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Turkey,TR,D2 - Land,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Turkey,TR,D4 - Census,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D5,Turkey,TR,D5 - Budget,60,5,10,15,0,15,0,10,5,0,0,0
+ODB.2013.D6,Turkey,TR,D6 - Spend,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Turkey,TR,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Turkey,TR,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Turkey,TR,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Turkey,TR,D10 - Trade,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D11,Turkey,TR,D11 - Health,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D12,Turkey,TR,D12 - Education,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D13,Turkey,TR,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Turkey,TR,D14 - Environment,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D15,Turkey,TR,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,United Arab Emirates,AE,D1 - Map,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,United Arab Emirates,AE,D2 - Land,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,United Arab Emirates,AE,D4 - Census,60,5,10,15,0,15,0,10,0,5,0,0
+ODB.2013.D5,United Arab Emirates,AE,D5 - Budget,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,United Arab Emirates,AE,D6 - Spend,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,United Arab Emirates,AE,D7 - Company,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,United Arab Emirates,AE,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,United Arab Emirates,AE,D9 - Transport,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,United Arab Emirates,AE,D10 - Trade,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D11,United Arab Emirates,AE,D11 - Health,65,5,10,15,15,15,0,0,0,5,0,0
+ODB.2013.D12,United Arab Emirates,AE,D12 - Education,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,United Arab Emirates,AE,D13 - Crime,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D14,United Arab Emirates,AE,D14 - Environment,50,5,10,15,0,15,0,0,0,5,0,0
+ODB.2013.D15,United Arab Emirates,AE,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Yemen,YE,D1 - Map,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D2,Yemen,YE,D2 - Land,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Yemen,YE,D4 - Census,65,5,10,15,0,15,0,10,5,5,0,0
+ODB.2013.D5,Yemen,YE,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Yemen,YE,D6 - Spend,5,5,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,Yemen,YE,D7 - Company,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,Yemen,YE,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Yemen,YE,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,Yemen,YE,D10 - Trade,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D11,Yemen,YE,D11 - Health,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D12,Yemen,YE,D12 - Education,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D13,Yemen,YE,D13 - Crime,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D14,Yemen,YE,D14 - Environment,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D15,Yemen,YE,D15 - Elections,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D1,Australia,AU,D1 - Map,90,5,10,15,15,15,15,10,5,0,0,1
+ODB.2013.D2,Australia,AU,D2 - Land,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D4,Australia,AU,D4 - Census,60,5,10,15,0,0,15,10,5,0,0,0
+ODB.2013.D5,Australia,AU,D5 - Budget,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D6,Australia,AU,D6 - Spend,75,5,10,15,15,15,0,10,5,0,0,0
+ODB.2013.D7,Australia,AU,D7 - Company,60,5,10,15,0,15,0,10,0,0,5,0
+ODB.2013.D8,Australia,AU,D8 - Legislation,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D9,Australia,AU,D9 - Transport,75,5,10,15,15,15,0,10,5,0,0,0
+ODB.2013.D10,Australia,AU,D10 - Trade,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D11,Australia,AU,D11 - Health,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D12,Australia,AU,D12 - Education,55,5,10,15,0,15,0,10,0,0,0,0
+ODB.2013.D13,Australia,AU,D13 - Crime,80,5,10,15,15,15,15,0,0,5,0,1
+ODB.2013.D14,Australia,AU,D14 - Environment,60,5,10,15,15,15,0,0,0,0,0,0
+ODB.2013.D15,Australia,AU,D15 - Elections,90,5,10,15,15,15,15,10,5,0,0,1
+ODB.2013.D1,New Zealand,NZ,D1 - Map,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D2,New Zealand,NZ,D2 - Land,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D4,New Zealand,NZ,D4 - Census,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D5,New Zealand,NZ,D5 - Budget,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D6,New Zealand,NZ,D6 - Spend,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D7,New Zealand,NZ,D7 - Company,15,5,10,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,New Zealand,NZ,D8 - Legislation,70,5,10,15,0,15,15,0,5,5,0,0
+ODB.2013.D9,New Zealand,NZ,D9 - Transport,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D10,New Zealand,NZ,D10 - Trade,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D11,New Zealand,NZ,D11 - Health,60,5,10,15,0,15,0,10,5,0,0,0
+ODB.2013.D12,New Zealand,NZ,D12 - Education,45,5,10,15,0,15,0,0,0,0,0,0
+ODB.2013.D13,New Zealand,NZ,D13 - Crime,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D14,New Zealand,NZ,D14 - Environment,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D15,New Zealand,NZ,D15 - Elections,80,5,10,15,0,15,15,10,5,5,0,0
+ODB.2013.D1,United Kingdom,GB,D1 - Map,100,5,10,15,15,15,15,10,5,5,5,1
+ODB.2013.D2,United Kingdom,GB,D2 - Land,100,5,10,15,15,15,15,10,5,5,5,1
+ODB.2013.D4,United Kingdom,GB,D4 - Census,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D5,United Kingdom,GB,D5 - Budget,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D6,United Kingdom,GB,D6 - Spend,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D7,United Kingdom,GB,D7 - Company,100,5,10,15,15,15,15,10,5,5,5,1
+ODB.2013.D8,United Kingdom,GB,D8 - Legislation,90,5,10,15,15,15,15,0,5,5,5,1
+ODB.2013.D9,United Kingdom,GB,D9 - Transport,90,5,10,15,15,15,15,10,5,0,0,1
+ODB.2013.D10,United Kingdom,GB,D10 - Trade,90,5,10,15,15,15,15,10,5,0,0,1
+ODB.2013.D11,United Kingdom,GB,D11 - Health,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D12,United Kingdom,GB,D12 - Education,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D13,United Kingdom,GB,D13 - Crime,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D14,United Kingdom,GB,D14 - Environment,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D15,United Kingdom,GB,D15 - Elections,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D1,United States,US,D1 - Map,90,5,10,15,15,15,15,10,5,0,0,1
+ODB.2013.D2,United States,US,D2 - Land,90,5,10,15,15,15,15,10,5,0,0,1
+ODB.2013.D4,United States,US,D4 - Census,80,5,10,15,15,15,0,10,5,5,0,0
+ODB.2013.D5,United States,US,D5 - Budget,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D6,United States,US,D6 - Spend,80,5,10,15,15,15,0,10,5,5,0,0
+ODB.2013.D7,United States,US,D7 - Company,0,0,0,0,0,0,0,0,0,0,0,0
+ODB.2013.D8,United States,US,D8 - Legislation,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D9,United States,US,D9 - Transport,75,5,10,15,15,15,0,10,0,5,0,0
+ODB.2013.D10,United States,US,D10 - Trade,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D11,United States,US,D11 - Health,95,5,10,15,15,15,15,10,5,5,0,1
+ODB.2013.D12,United States,US,D12 - Education,85,5,10,15,15,15,15,0,5,5,0,1
+ODB.2013.D13,United States,US,D13 - Crime,85,5,10,15,15,15,15,0,5,5,0,1
+ODB.2013.D14,United States,US,D14 - Environment,100,5,10,15,15,15,15,10,5,5,5,1
+ODB.2013.D15,United States,US,D15 - Elections,95,5,10,15,15,15,15,10,5,5,0,1
