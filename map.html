@@ -5,13 +5,21 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/map-style.css" />
+        <link rel="css/jquery.dataTables.min.css"/>
   	<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/freeuniversal" rel="stylesheet" type="text/css"/>
 </head>
 <body>
   <div id="container">
   <div id="warning">
   </div>
-
+ 
+  <div id="clusters">
+	<input type="checkbox" id="clusters_all" checked="true" onchange="updateClusters(this.id,this.checked);">All</input>
+	<input type="checkbox" id="clusters_High_capacity" checked="true" onchange="updateClusters(this.id,this.checked);">High capacity</input>
+	<input type="checkbox" id="clusters_Emerging_and_advancing" checked="true" onchange="updateClusters(this.id,this.checked);">Emerging and advancing</input>
+	<input type="checkbox" id="clusters_Capacity_constrained" checked="true" onchange="updateClusters(this.id,this.checked);">Capacity constrained</input>
+	<input type="checkbox" id="clusters_One_sided_initiative" checked="true" onchange="updateClusters(this.id,this.checked);">One sided initiative</input>
+  </div>
   <select id="year" title="Select year" onchange="changeYear();">
 	<option id="2014" style='color: #9467bd;'>2014</option>
 	<option id="2013" style='color: #1f77b4;'>2013</option>
@@ -22,6 +30,9 @@
   <div id="help" onclick="showHelp()" title="Help">
 	<img id="helpimg" src="img/help_white.png" width="30px" alt="Help"/>
   </div>
+    <div id="rankings">
+	fdsjfdshk
+    </div>
     <div id="sidebar">
       <div id="detail">
         <h2 id="country">
@@ -69,11 +80,18 @@
 	<iframe id="frame1" src="about/index.html?hf=no" frameborder="0" scrolling="yes" width="100%" height="510px"></iframe>
   </div>
   <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/jquery.csv-0.71.min.js"></script>
+  <script src="js/jquery.csvToTable.js"></script>
+  <script src="js/jquery.databar.js"></script>
+  <script src="js/jquery.dataTables.min.js"></script>
+  <script src="js/dataTables.fixedHeader.js"></script>
   <script src="js/d3.v3.min.js"></script>
   <script src="js/queue.v1.min.js"></script>
   <script src="js/topojson.js"></script>
   <script src="js/radarChart.js"></script>
   <script src="js/datasets.js"></script>
+  <script src="js/odb.js"></script>
   <script src="js/map.js"></script>
   <script src="js/help.js"></script>
 </body>

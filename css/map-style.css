@@ -427,3 +427,26 @@ h2 {
 	left: 160px;
 	font-size: 1.1em;
 }
+#rankings {
+	width: 96%;
+	background: #404040;
+	border: 1px solid white;
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	height: 515px;
+	padding: 10px;
+	border-radius: 5px;
+	overflow-y: scroll;
+	opacity: 0;
+}
+.dataTables_filter {
+	text-align: right;
+}
+.dataTables_filter  label {
+	margin-right: 1em;
+}
+.fixedHeader {
+	background: #404040;
+	opacity: 0;
+}
