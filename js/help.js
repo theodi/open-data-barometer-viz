@@ -5,7 +5,7 @@ function hideHelp() {
 	$("#helpBox").fadeOut();
 }
 function showMiniHelp(id) {
-	$("#miniHelpFrame").attr('src','about/'+id+'.html');
+	$("#miniHelpFrame").attr('src','about/'+id+'.html?hf=no');
 	$("#miniHelp").fadeIn();
 }
 function hideMiniHelp() {
