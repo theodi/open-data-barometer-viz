@@ -9,3 +9,14 @@ weight: 1
 <h2>Emerging and advancing</h2>
 <p>These countries have <b>emerging or established open data programmes</b>, often as dedicated initiatives, but sometimes through linking open data into existing policy agendas. Many of these countries are <b>innovating in the delivery of open data policy</b>, contextualising open data for their populations: for example, by focussing on the need for governments to make data accessible through <b>visualisation</b> in contexts of <b>limited literacy and data literacy</b>, as in India, or <b>exploring the linkages between Right to Information laws and open data</b>, as in the Philippines. The countries in this cluster have a <b>variety of different strengths</b> - and have great potential to innovate in developing best-fit approaches to open data. However, many <b>still face challenges</b> before open data is mainstreamed across government and institutionalised as a sustainable practice.</p>
 </div>
+<script>
+window.onload = function () {
+	var params = window.location.search.replace( "?", "" );
+        if (params == "hf=no") {
+		document.getElementsByTagName('nav')[0].style.display="none";
+		document.getElementsByTagName('h1')[1].innerHTML = "Emerging and advancing";
+		document.getElementsByTagName('h2')[0].style.display="none";
+		document.getElementsByTagName('footer')[0].style.display="none";
+	}
+}
+</script>

@@ -6,6 +6,17 @@ menu: top
 weight: 1
 ---
 <div>
-<h2>One Sided Initiatives</h2>
+<h2>One sided initiatives</h2>
 These countries each have <b>some form of open data initiative</b>, ranging from departmental web pages listing open data, to full open data portals. However, government action to publish selected datasets is <b>not matched by civil society capacity and freedom to engage with the data</b>, <b>nor by private sector involvement</b> in the open data process. As a result, these initiatives appear to be very <b>supply-side driven</b>, without engagement with a broad community of users. Without wider political freedoms, the potential of open data to bring about political and social change in these contexts will be limited.
 </div>
+<script>
+window.onload = function () {
+	var params = window.location.search.replace( "?", "" );
+        if (params == "hf=no") {
+		document.getElementsByTagName('nav')[0].style.display="none";
+		document.getElementsByTagName('h1')[1].innerHTML = "One sidded initiatives";
+		document.getElementsByTagName('h2')[0].style.display="none";
+		document.getElementsByTagName('footer')[0].style.display="none";
+	}
+}
+</script>
